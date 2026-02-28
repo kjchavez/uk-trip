@@ -6,7 +6,7 @@
 
 ## Summary
 
-Roundtrip economy flights from San Francisco (SFO) to London Heathrow (LHR) for late May 2026 are currently showing **~$370-$675 per person roundtrip**, with deals as low as $370 RT on comparison sites. For 3 people, budget **$1,100 - $2,025 total**.
+Roundtrip economy flights from San Francisco (SFO) to London Heathrow (LHR) for late May 2026 are currently showing **~$370-$675 per person roundtrip**, with deals as low as $370 RT on comparison sites. For **4 people** (Elizabeth, Jessica, Kevin, Grant), budget **$1,480 - $2,700 total**. Target arrival: **Saturday May 23** (for the PL match on Sunday May 24).
 
 ---
 
@@ -38,13 +38,13 @@ Roundtrip economy flights from San Francisco (SFO) to London Heathrow (LHR) for 
 
 ---
 
-## Cost Estimate for 3 People
+## Cost Estimate for 4 People
 
-| Scenario | Per Person | Total (3 people) |
+| Scenario | Per Person | Total (4 people) |
 |----------|-----------|-------------------|
-| Budget (1-stop, booked early) | ~$370-500 | **$1,110 - $1,500** |
-| Mid-range (nonstop, flexible) | ~$550-675 | **$1,650 - $2,025** |
-| Higher (peak May pricing) | ~$750-900 | **$2,250 - $2,700** |
+| Budget (1-stop, booked early) | ~$370-500 | **$1,480 - $2,000** |
+| Mid-range (nonstop, flexible) | ~$550-675 | **$2,200 - $2,700** |
+| Higher (peak May pricing) | ~$750-900 | **$3,000 - $3,600** |
 
 ---
 

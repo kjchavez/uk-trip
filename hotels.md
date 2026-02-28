@@ -1,10 +1,12 @@
-# Hotel Research: London + Cornwall (3 Adults, 1 Room)
+# Hotel Research: London + Cornwall (4 Adults, 1 Room)
+
+> **Travelers:** Elizabeth, Jessica, Kevin, Grant
 
 > Last updated: 2026-02-28
 
 ---
 
-## Part 1: London (3 nights, ~May 26-29, 2026)
+## Part 1: London (4 nights, ~May 23-27, 2026)
 
 **Target area:** South Bank / Waterloo — walking distance to the National Theatre
 
@@ -59,7 +61,9 @@
 | Travelodge Southwark | 0.6 mi | $88-165 | $265-490 | Limited |
 | Park Plaza Westminster | 0.4 mi | $225-375+ | $675-1125+ | Yes (studio) |
 
-**Recommendation:** Premier Inn County Hall — best location + price + 3-adult support.
+**Note for 4 adults:** Most "family rooms" sleep 2 adults + 2 children. For 4 adults, consider: (1) calling the hotel to request a quad room or extra bed, (2) booking two interconnecting rooms, or (3) an Airbnb/serviced apartment near Waterloo with 2 bedrooms. An Airbnb may be the most comfortable and cost-effective option for 4 adults.
+
+**Recommendation:** Premier Inn County Hall for best location, but call to confirm 4-adult capacity. Or search [Airbnb - Waterloo/South Bank, 4 guests](https://www.airbnb.co.uk/s/Waterloo--London/homes?adults=4) for a 2-bedroom flat.
 
 ---
 
@@ -115,17 +119,17 @@
 | Premier Inn Penzance | $88-140 | $265-415 | Yes |
 | Airbnb/Cottage | $100-190 | $300-565 | Yes |
 
-**Recommendation:** Premier Inn Penzance for easiest booking, or YHA for budget.
+**Recommendation for 4 adults:** An Airbnb/holiday cottage is likely the best fit — more space, kitchen, and no awkward bed setups. Search [Airbnb - Penzance, 4 guests](https://www.airbnb.co.uk/s/Penzance--Cornwall/homes?adults=4). Alternatively, Premier Inn Penzance for easiest booking (call to confirm 4-adult capacity), or YHA for budget (book a 4-bed private room).
 
 ---
 
-## Total Lodging Estimate (6 nights)
+## Total Lodging Estimate (7 nights for 4 adults)
 
-| Scenario | London (3 nights) | Cornwall (3 nights) | Total |
+| Scenario | London (4 nights) | Cornwall (3 nights) | Total |
 |----------|-------------------|---------------------|-------|
-| Budget | $265 (Travelodge) | $225 (YHA) | **~$490** |
-| Mid-range | $450 (Premier Inn) | $265 (Premier Inn) | **~$715** |
-| Comfortable | $675 (Park Plaza) | $340 (Queens) | **~$1,015** |
+| Budget | $400 (Travelodge) | $225 (YHA) | **~$625** |
+| Mid-range | $650 (Premier Inn) | $300 (Premier Inn) | **~$950** |
+| Comfortable | $950 (Park Plaza) | $400 (Queens/Airbnb) | **~$1,350** |
 
 ---
 

@@ -15,7 +15,7 @@
 | **Venue** | Lyttelton Theatre, National Theatre, South Bank, London SE1 9PX |
 | **Run Dates** | 21 March — 6 June 2026 |
 | **Target Dates** | May 26-29, 2026 (aim for Wed May 27 evening) |
-| **Tickets Needed** | 3 |
+| **Tickets Needed** | 4 (Elizabeth, Jessica, Kevin, Grant) |
 | **NT Cinema Broadcast** | 25 June 2026 (if you miss the live show) |
 
 ---
@@ -48,14 +48,14 @@ Tickets **start from £36** on the [National Theatre website](https://www.nation
 
 > **Important:** A £4 per transaction fee applies to phone bookings and will apply to online bookings from 1 April 2026. **Book online before April 1 to avoid fees!**
 
-### Total Cost for 3 Tickets
+### Total Cost for 4 Tickets
 
-| Option | Per Ticket | Total (3) |
+| Option | Per Ticket | Total (4) |
 |--------|-----------|-----------|
-| Premium Stalls | ~£75 | ~£225 (~$285) |
-| Good Stalls/Circle | ~£50 | ~£150 (~$190) |
-| Mid-range | ~£36-45 | ~£108-135 (~$135-170) |
-| Friday Rush (if lucky) | £10 | £30 (~$38) |
+| Premium Stalls | ~£75 | ~£300 (~$380) |
+| Good Stalls/Circle | ~£50 | ~£200 (~$250) |
+| Mid-range | ~£36-45 | ~£144-180 (~$180-230) |
+| Friday Rush (if lucky) | £10 | £40 (~$50) |
 
 ---
 
@@ -97,7 +97,7 @@ Tickets **start from £36** on the [National Theatre website](https://www.nation
 **Step-by-step:**
 1. Go to [nationaltheatre.org.uk/productions/les-liaisons-dangereuses](https://www.nationaltheatre.org.uk/productions/les-liaisons-dangereuses/)
 2. Check performances for May 26-29 — target **Wed May 27 at 7:00 PM**
-3. Book 3 tickets in mid-stalls or front circle (~£36-60/ticket = £108-180 total)
+3. Book 4 tickets in mid-stalls or front circle (~£36-60/ticket = £144-240 total)
 4. If May 27 is sold out, try Tue May 26 or Thu May 28 evening
 5. **Backup plan:** Try Friday Rush on May 22 at 1:00 PM BST for £10 tickets
 

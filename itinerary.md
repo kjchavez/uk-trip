@@ -1,5 +1,5 @@
 # UK Trip Itinerary: London & Cornwall
-## May 21 - May 28, 2026 | Elizabeth, Jessica, Kevin & Grant
+## May 23 - May 31, 2026 | Elizabeth, Jessica, Kevin & Grant
 
 ---
 
@@ -7,24 +7,24 @@
 
 | Segment | Dates | Nights | Base |
 |---------|-------|--------|------|
-| **London** | Thu May 21 - Mon May 25 | 4 nights | South Bank / Waterloo |
-| **Cornwall** | Mon May 25 - Thu May 28 | 3 nights | Penzance area |
-| **Fly home** | Thu May 28 | -- | From London or Newquay |
+| **London** | Sat May 23 - Thu May 28 | 5 nights | South Bank / Waterloo |
+| **Cornwall** | Thu May 28 - Sun May 31 | 3 nights | Penzance area |
+| **Fly home** | Sun May 31 | -- | From London or Newquay |
 
 **Anchor events:**
-- **Les Liaisons Dangereuses** — **Friday May 22 at 7:00 PM**, National Theatre (Lyttelton) — TICKETS BOOKED ✓
 - **Crystal Palace vs Arsenal** — Premier League final matchday, **Sunday May 24 at 5:00 PM**, Selhurst Park
+- **Les Liaisons Dangereuses** — **Wednesday May 27 at 7:00 PM**, National Theatre (Lyttelton) — TICKETS BOOKED ✓
 
 ---
 
 ## Booking Status
 
-- [x] **Theatre tickets** — Fri May 22 at 7:00 PM, 4 tickets ✓
+- [x] **Theatre tickets** — Wed May 27 at 7:00 PM, 4 tickets ✓
 - [ ] **Premier League tickets** — Crystal Palace vs Arsenal, Sun May 24. Buy via [SeatPick](https://seatpick.com/crystal-palace-vs-arsenal-selhurst-park-tickets/event/377282), [LiveFootballTickets](https://www.livefootballtickets.com/fixtures/crystal-palace-v-arsenal-tickets-english-premier-league.html), or [P1 Travel](https://www.p1travel.com/en/organizer/crystal-palace)
-- [ ] **Flights** — Arrive Thu May 21, depart Thu May 28. [Google Flights](https://www.google.com/travel/flights)
-- [ ] **London hotel** — 4 nights (Thu May 21 - Mon May 25), family/quad room near Waterloo
-- [ ] **Cornwall accommodation** — 3 nights (Mon May 25 - Thu May 28), Penzance area
-- [ ] **Train to Cornwall** — [GWR](https://www.gwr.com/) London Paddington → Penzance, Mon May 25 morning. Advance singles from ~£42/person
+- [ ] **Flights** — Arrive Sat May 23, depart Sun May 31. [Google Flights](https://www.google.com/travel/flights)
+- [ ] **London hotel** — 5 nights (Sat May 23 - Thu May 28), family/quad room near Waterloo
+- [ ] **Cornwall accommodation** — 3 nights (Thu May 28 - Sun May 31), Penzance area
+- [ ] **Train to Cornwall** — [GWR](https://www.gwr.com/) London Paddington → Penzance, Thu May 28 morning. Advance singles from ~£42/person
 - [ ] **Poldark tour (optional)** — [Viator](https://www.viator.com/tours/Cornwall/Poldark-West-Cornwall-Tour/d24556-89929P1), [Brit Movie Tours](https://britmovietours.com/bookings/poldark-tour-of-locations/) (£650 for 1-5 people), or [Cornwall Tours](https://cornwalltours.uk/tour/poldark-tour-of-west-cornwall/) (10% off with code "2026")
 
 ---
@@ -33,9 +33,9 @@
 
 ---
 
-### Day 1 — Thursday, May 21: Arrival in London
+### Day 1 — Saturday, May 23: Arrival in London
 
-**Theme:** Arrive, settle in, first taste of London.
+**Theme:** Arrive, settle in, first taste of London. Rest up — it's match day tomorrow!
 
 #### Morning / Early Afternoon
 - **Arrive in London** (flights to Heathrow or Gatwick).
@@ -47,85 +47,28 @@
 #### Afternoon
 - **South Bank stroll**: Walk east along the Thames.
   - Pass the **London Eye** (~£30pp — [book online](https://www.londoneye.com/)).
-  - Walk past the **Royal Festival Hall** and **National Theatre** — scope out tomorrow's venue!
+  - Walk past the **Royal Festival Hall** and **National Theatre** — scope out the venue for Wednesday!
   - Browse the **South Bank Book Market** under Waterloo Bridge.
   - **Tate Modern** (free entry) — [tate.org.uk](https://www.tate.org.uk/visit/tate-modern)
 
 #### Evening
 - **Dinner at Wahaca Southbank** — Mexican street food on the river. [wahaca.co.uk](https://www.wahaca.co.uk/)
 - Or **The Anchor & Hope** (gastropub, The Cut, Waterloo) — excellent British food.
-- Early-ish night — tomorrow is show night!
+- Early-ish night — the Premier League awaits tomorrow!
 
 ---
 
-### Day 2 — Friday, May 22: THE PLAY — Les Liaisons Dangereuses
-
-**Theme:** Relaxed day building up to the main event.
-
-#### Morning
-- **Borough Market** (open Wed-Sat) — 10 min walk from hotel.
-  [boroughmarket.org.uk](https://boroughmarket.org.uk/)
-  - Wander the stalls, sample British cheeses, pastries, and fresh food.
-  - Great brunch from the stalls by Southwark Cathedral.
-
-#### Afternoon
-- **Cross the Millennium Bridge** to **St Paul's Cathedral** (entry ~£23pp, or admire from outside). [stpauls.co.uk](https://www.stpauls.co.uk/)
-- Walk past the **Globe Theatre** — [shakespearesglobe.com](https://www.shakespearesglobe.com/)
-- **Head back to the hotel** to rest and freshen up — tonight is special.
-
-#### Evening — THE PLAY 🎭
-- **5:00-5:30 PM:** Pre-theatre dinner.
-  - **House Restaurant at the National Theatre** — right in the building. [nationaltheatre.org.uk/eat-and-drink](https://www.nationaltheatre.org.uk/your-visit/eat-and-drink)
-  - Or **Tas Restaurant** (The Cut, Waterloo) — affordable Turkish/Mediterranean, popular pre-theatre. [tasrestaurants.co.uk](https://www.tasrestaurants.co.uk/)
-
-- **7:00 PM:** **Les Liaisons Dangereuses** at the **National Theatre (Lyttelton Theatre)**
-  - Starring **Aidan Turner** and **Lesley Manville**
-  - Directed by **Marianne Elliott**
-  - This is a captioned performance — live subtitles displayed on a screen beside the stage
-  - **Tip:** Arrive 30 min early for drinks at the NT bar. The brutalist terraces overlooking the Thames are iconic.
-
-- **After the show:** Drinks on the South Bank. The NT bar stays open after performances. Walk along the river — London at night from the South Bank is unforgettable.
-
----
-
-### Day 3 — Saturday, May 23: Classic London Sightseeing
-
-**Theme:** Big London landmarks, period drama connections, and the city at its best.
-
-#### Morning
-- **Westminster walk**: Cross Westminster Bridge from South Bank.
-  - See **Big Ben / Houses of Parliament** up close.
-  - Walk through **St James's Park** (gorgeous in late May).
-  - **Buckingham Palace** — Changing of the Guard usually runs on Saturdays in summer (verify at [changing-guard.com](https://changing-guard.com/dates-buckingham-palace.html)).
-
-#### Late Morning
-- **Churchill War Rooms** (optional, ~£28pp) — [iwm.org.uk](https://www.iwm.org.uk/visits/churchill-war-rooms). Fascinating underground WWII bunker.
-
-#### Afternoon — Period Drama London
-- **Take the Tube to Greenwich** (Jubilee Line or DLR to Cutty Sark).
-  - **The Old Royal Naval College** — filming location for many period dramas. The Painted Hall is breathtaking. [ornc.org](https://www.ornc.org/) — entry ~£15pp.
-  - Walk through **Greenwich Park** for Thames views.
-  - **National Maritime Museum** (free) — connects to Cornwall's maritime heritage.
-
-- **Alternative:** Visit the **V&A Museum** (free, South Kensington) — 18th-century costume galleries perfect for Poldark fans. [vam.ac.uk](https://www.vam.ac.uk/)
-
-#### Evening
-- **Dinner in Soho or South Bank** — explore and find something that catches your eye.
-- Or **Skylon Restaurant** at the Royal Festival Hall — modern British, river views. [skylon-restaurant.co.uk](https://www.skylon-restaurant.co.uk/)
-
----
-
-### Day 4 — Sunday, May 24: PREMIER LEAGUE MATCH DAY ⚽
+### Day 2 — Sunday, May 24: PREMIER LEAGUE MATCH DAY ⚽
 
 **Theme:** The beautiful game. Crystal Palace vs Arsenal, Selhurst Park, 5:00 PM kickoff. Final day of the Premier League season.
 
 #### Morning
-- **Lazy morning** — sleep in and recharge.
+- **Lazy morning** — recover from the flight and ease into London.
 - **Full English Breakfast** near the hotel — the classic UK experience.
 
 #### Early Afternoon
-- **Free time** — last London shopping, revisit a favourite spot, or explore somewhere new:
-  - **Camden Market** (vibrant, eclectic — Tube to Camden Town)
+- **Free time** — explore the neighbourhood or take it easy:
+  - **Borough Market** is closed on Sundays, but the South Bank is lovely for a walk.
   - **Covent Garden** (street performers, shops, restaurants)
   - **British Museum** (free) — [britishmuseum.org](https://www.britishmuseum.org/)
 
@@ -153,16 +96,94 @@
 #### After the Match (~7:00 PM)
 - Head back to central London.
 - **Celebratory dinner** — whatever the result, you just experienced the Premier League live.
-- Pack for Cornwall — the train leaves tomorrow morning!
 
 ---
 
-### Day 5 — Monday, May 25 (Bank Holiday): London to Cornwall by Train 🚂
+### Day 3 — Monday, May 25 (Bank Holiday): London Sightseeing 🇬🇧
 
-**Theme:** Travel day — but make it scenic. It's a UK Bank Holiday so enjoy the relaxed vibe.
+**Theme:** Bank Holiday Monday — relaxed London exploring. Many shops may have reduced hours, but museums and parks are open.
 
 #### Morning
-- **Early checkout** from London hotel.
+- **Borough Market** (open Wed-Sat, so closed today) — instead, grab breakfast at a café near the hotel.
+- **Westminster walk**: Cross Westminster Bridge from South Bank.
+  - See **Big Ben / Houses of Parliament** up close.
+  - Walk through **St James's Park** (gorgeous in late May).
+  - **Buckingham Palace** — Changing of the Guard may not run on Bank Holidays (verify at [changing-guard.com](https://changing-guard.com/dates-buckingham-palace.html)).
+
+#### Late Morning
+- **Churchill War Rooms** (optional, ~£28pp) — [iwm.org.uk](https://www.iwm.org.uk/visits/churchill-war-rooms). Fascinating underground WWII bunker.
+
+#### Afternoon — Period Drama London
+- **Take the Tube to Greenwich** (Jubilee Line or DLR to Cutty Sark).
+  - **The Old Royal Naval College** — filming location for many period dramas. The Painted Hall is breathtaking. [ornc.org](https://www.ornc.org/) — entry ~£15pp.
+  - Walk through **Greenwich Park** for Thames views.
+  - **National Maritime Museum** (free) — connects to Cornwall's maritime heritage.
+
+- **Alternative:** Visit the **V&A Museum** (free, South Kensington) — 18th-century costume galleries perfect for Poldark fans. [vam.ac.uk](https://www.vam.ac.uk/)
+
+#### Evening
+- **Dinner in Soho or South Bank** — explore and find something that catches your eye.
+- Or **Skylon Restaurant** at the Royal Festival Hall — modern British, river views. [skylon-restaurant.co.uk](https://www.skylon-restaurant.co.uk/)
+
+---
+
+### Day 4 — Tuesday, May 26: Classic London Sightseeing
+
+**Theme:** Big London landmarks, markets, and the city at its best.
+
+#### Morning
+- **Borough Market** (open Wed-Sat... but Tuesday is a miss! See below for alternatives).
+  - Instead: **Maltby Street Market** (Sat-Sun only) or grab pastries from a local bakery.
+  - Or start with **St Paul's Cathedral** (entry ~£23pp, or admire from outside). [stpauls.co.uk](https://www.stpauls.co.uk/)
+- Walk past the **Globe Theatre** — [shakespearesglobe.com](https://www.shakespearesglobe.com/)
+
+#### Afternoon
+- **Free time** — explore somewhere new:
+  - **Camden Market** (vibrant, eclectic — Tube to Camden Town)
+  - **British Museum** (free) — [britishmuseum.org](https://www.britishmuseum.org/)
+  - **Notting Hill & Portobello Road** (the market is best on Saturdays, but the neighbourhood is charming anytime)
+
+#### Evening
+- **Dinner in Soho** — Chinatown, Theatreland, endless options.
+- Rest up — tomorrow is show night!
+
+---
+
+### Day 5 — Wednesday, May 27: THE PLAY — Les Liaisons Dangereuses 🎭
+
+**Theme:** Relaxed day building up to the main event.
+
+#### Morning
+- **Borough Market** (open Wed-Sat) — 10 min walk from hotel.
+  [boroughmarket.org.uk](https://boroughmarket.org.uk/)
+  - Wander the stalls, sample British cheeses, pastries, and fresh food.
+  - Great brunch from the stalls by Southwark Cathedral.
+
+#### Afternoon
+- **Cross the Millennium Bridge** to admire **St Paul's Cathedral** from across the river.
+- Walk along the South Bank. Browse the **South Bank Book Market** under Waterloo Bridge.
+- **Head back to the hotel** to rest and freshen up — tonight is special.
+
+#### Evening — THE PLAY 🎭
+- **5:00-5:30 PM:** Pre-theatre dinner.
+  - **House Restaurant at the National Theatre** — right in the building. [nationaltheatre.org.uk/eat-and-drink](https://www.nationaltheatre.org.uk/your-visit/eat-and-drink)
+  - Or **Tas Restaurant** (The Cut, Waterloo) — affordable Turkish/Mediterranean, popular pre-theatre. [tasrestaurants.co.uk](https://www.tasrestaurants.co.uk/)
+
+- **7:00 PM:** **Les Liaisons Dangereuses** at the **National Theatre (Lyttelton Theatre)**
+  - Starring **Aidan Turner** and **Lesley Manville**
+  - Directed by **Marianne Elliott**
+  - **Tip:** Arrive 30 min early for drinks at the NT bar. The brutalist terraces overlooking the Thames are iconic.
+
+- **After the show:** Drinks on the South Bank. The NT bar stays open after performances. Walk along the river — London at night from the South Bank is unforgettable. A perfect farewell to London before heading to Cornwall tomorrow.
+
+---
+
+### Day 6 — Thursday, May 28: London to Cornwall by Train 🚂
+
+**Theme:** Travel day — but make it scenic.
+
+#### Morning
+- **Checkout** from London hotel.
 - Grab breakfast or pick up pastries/coffee for the train.
 - **Get to London Paddington station:**
   - From Waterloo: Bakerloo Line to Paddington (~15 min).
@@ -174,7 +195,6 @@
   - Recommended departure: **~9:00 AM or 10:00 AM** (arrives ~2:15-3:30 PM)
   - The stretch after Exeter is spectacular — the train runs along the sea wall at Dawlish. **Sit on the left side** (facing forward) for sea views.
   - [Book advance tickets on GWR](https://www.gwr.com/) — advance singles from ~£42/person
-  - **Note:** Bank Holiday Monday — trains may be busier, book in advance!
   - **Tip:** Book a table seat. Bring snacks. The GWR buffet car sells drinks and sandwiches.
 
 #### Afternoon
@@ -192,7 +212,7 @@
 
 ---
 
-### Day 6 — Tuesday, May 26: Poldark Day — Botallack & The Tin Coast ⛏️
+### Day 7 — Friday, May 29: Poldark Day — Botallack & The Tin Coast ⛏️
 
 **Theme:** Windswept cliffs, dramatic mines, and Poldark magic.
 
@@ -237,7 +257,7 @@
 
 ---
 
-### Day 7 — Wednesday, May 27: Holywell Bay & North Coast 🏖️
+### Day 8 — Saturday, May 30: Holywell Bay & North Coast 🏖️
 
 **Theme:** Beach, dunes, and the wilder side of Cornwall.
 
@@ -274,7 +294,7 @@
 
 ---
 
-### Day 8 — Thursday, May 28: Departure Day 🏠
+### Day 9 — Sunday, May 31: Departure Day 🏠
 
 **Theme:** Gentle morning, then head home.
 
@@ -290,7 +310,7 @@
 - Drive to Newquay from Penzance: ~1 hour.
 
 #### Option C: Extra Morning in Cornwall
-- Visit **St Michael's Mount** if missed on Day 6.
+- Visit **St Michael's Mount** if missed on Day 7.
 - Walk the **Mousehole to Newlyn** coastal path (~2 miles, easy, beautiful).
 - Cream tea in **Mousehole**.
 
@@ -318,14 +338,14 @@
 | Item | Estimated Cost |
 |------|---------------|
 | **Flights** (4 people RT) | $1,480-$2,700 |
-| **London hotel** (4 nights, 1 room) | £480-£920 (~$600-$1,160) |
+| **London hotel** (5 nights, 1 room) | £600-£1,150 (~$755-$1,450) |
 | **Cornwall accommodation** (3 nights) | £240-£450 (~$300-$565) |
 | **Theatre tickets** (4x) | BOOKED ✓ |
 | **PL match tickets** (4x) | £500-£1,500 (~$630-$1,890) |
 | **Train London-Penzance** (4x return) | £336-£480 (~$425-$605) |
 | **Car rental Cornwall** (2 days) | £80-£120 (~$100-$150) |
 | **Poldark tour (optional)** | £425-£650 (~$535-$820) |
-| **Food & drink** (~£50-£75 pp/day × 8 days) | £1,600-£2,400 (~$2,015-$3,025) |
+| **Food & drink** (~£50-£75 pp/day × 9 days) | £1,800-£2,700 (~$2,270-$3,400) |
 | **Attractions & entry fees** | £200-£400 (~$250-$505) |
 | **London transport** | £65-£100 (~$80-$125) |
 
@@ -357,8 +377,8 @@
 ## Notes & Tips
 
 1. **PL tickets are the next priority** — Crystal Palace vs Arsenal on the final day will be in demand. Book via resellers soon.
-2. **Book train tickets ASAP** for Bank Holiday Monday May 25 — trains will be busy.
+2. **Book train tickets ASAP** for Thursday May 28 — advance fares are cheapest booked early.
 3. **Consider a National Trust membership** (~£78/adult/year) — pays for itself in Cornwall.
 4. **Tide times matter** for St Michael's Mount and Holywell Bay caves. Check [tidetimes.org.uk](https://www.tidetimes.org.uk/).
 5. **Cornish cream teas:** Jam first, then cream on top. Don't let Devon tell you otherwise.
-6. **The trip tells a story:** Aidan Turner live on stage Friday night. The Premier League finale on Sunday. Then the wild, windswept world of Poldark in Cornwall. Unforgettable.
+6. **The trip tells a story:** The Premier League finale on your first full day. Exploring London all week. Aidan Turner live on stage Wednesday night. Then the wild, windswept world of Poldark in Cornwall. Unforgettable.

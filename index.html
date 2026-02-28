@@ -161,8 +161,9 @@
     font-family: 'Cormorant Garamond', serif;
     font-size: clamp(1.2rem, 3vw, 1.6rem);
     font-weight: 600;
-    color: var(--gold);
-    border: 1.5px solid var(--gold);
+    color: var(--white);
+    background: rgba(0, 0, 0, 0.35);
+    border: 1.5px solid rgba(255, 255, 255, 0.6);
     padding: 0.6em 2em;
     letter-spacing: 0.1em;
     animation: fadeInUp 1s ease-out 0.9s both, gentlePulse 4s ease-in-out 2s infinite;
@@ -196,8 +197,8 @@
     to { opacity: 1; transform: translateY(0); }
   }
   @keyframes gentlePulse {
-    0%, 100% { box-shadow: 0 0 0 0 rgba(201,169,110,0); }
-    50% { box-shadow: 0 0 20px 3px rgba(201,169,110,0.25); }
+    0%, 100% { box-shadow: 0 0 0 0 rgba(255,255,255,0); }
+    50% { box-shadow: 0 0 20px 3px rgba(255,255,255,0.2); }
   }
   @keyframes bounce {
     0%, 100% { transform: translateY(0); }
@@ -760,14 +761,14 @@
 <section class="hero">
   <div class="hero-stars" id="stars"></div>
   <div class="hero-content">
-    <p class="hero-prelude">Elizabeth, Jessica, Kevin &amp; Grant</p>
+    <p class="hero-prelude">A birthday trip for Mom</p>
     <h1 class="hero-title">
       You're Invited
       <span class="accent">to England</span>
     </h1>
     <p class="hero-subtitle">London &amp; Cornwall &mdash; Nine days of football, theatre, and wild coastal beauty</p>
     <div class="hero-date">May 21 &ndash; 28, 2026</div>
-    <p class="hero-travelers">Four friends. Two coasts. One unforgettable trip.</p>
+    <p class="hero-travelers">Elizabeth, Jessica, Kevin &amp; Grant</p>
   </div>
   <a href="#overview" class="hero-scroll" aria-label="Scroll down">&#8595;</a>
 </section>
@@ -815,22 +816,6 @@
   <div class="section-line"></div>
   <div class="highlights-grid">
 
-    <!-- Football -->
-    <div class="highlight-card">
-      <div class="highlight-banner football">
-        <span class="h-emoji">&#9917;</span>
-        <h3>Crystal Palace vs Arsenal</h3>
-        <div class="h-sub">Premier League Final Matchday</div>
-      </div>
-      <div class="highlight-body">
-        <div class="h-detail"><span class="h-label">&#128197;</span> Sunday, May 24, 2026</div>
-        <div class="h-detail"><span class="h-label">&#9200;</span> 5:00 PM kickoff (all 10 matches simultaneously)</div>
-        <div class="h-detail"><span class="h-label">&#127967;</span> Selhurst Park, London SE25</div>
-        <div class="h-detail"><span class="h-label">&#127915;</span> One of English football's most atmospheric grounds &mdash; and the real-life inspiration for Ted Lasso</div>
-        <div class="h-detail"><span class="h-label">&#128176;</span> ~$160&ndash;470 per ticket via resellers</div>
-      </div>
-    </div>
-
     <!-- Theatre -->
     <div class="highlight-card">
       <div class="highlight-banner theatre">
@@ -843,7 +828,21 @@
         <div class="h-detail"><span class="h-label">&#127912;</span> Starring Aidan Turner &amp; Lesley Manville</div>
         <div class="h-detail"><span class="h-label">&#128205;</span> South Bank, London SE1 &mdash; right by the Thames</div>
         <div class="h-detail"><span class="h-label">&#128083;</span> Directed by Marianne Elliott &mdash; 18th-century seduction and betrayal</div>
-        <div class="h-detail"><span class="h-label">&#128176;</span> From &pound;36/ticket (book ASAP &mdash; high demand)</div>
+      </div>
+    </div>
+
+    <!-- Football -->
+    <div class="highlight-card">
+      <div class="highlight-banner football">
+        <span class="h-emoji">&#9917;</span>
+        <h3>Crystal Palace vs Arsenal</h3>
+        <div class="h-sub">Premier League Final Matchday</div>
+      </div>
+      <div class="highlight-body">
+        <div class="h-detail"><span class="h-label">&#128197;</span> Sunday, May 24, 2026</div>
+        <div class="h-detail"><span class="h-label">&#9200;</span> 5:00 PM kickoff (all 10 matches simultaneously)</div>
+        <div class="h-detail"><span class="h-label">&#127967;</span> Selhurst Park, London SE25</div>
+        <div class="h-detail"><span class="h-label">&#127915;</span> One of English football's most atmospheric grounds &mdash; and the real-life inspiration for Ted Lasso</div>
       </div>
     </div>
 
@@ -858,7 +857,6 @@
         <div class="h-detail"><span class="h-label">&#128197;</span> Tuesday May 26 &ndash; Wednesday May 27</div>
         <div class="h-detail"><span class="h-label">&#128205;</span> Botallack Mine, Levant Mine, Holywell Bay, St Michael's Mount</div>
         <div class="h-detail"><span class="h-label">&#127958;</span> Walk the cliff paths, see the iconic engine houses, and visit Ross's beach</div>
-        <div class="h-detail"><span class="h-label">&#128663;</span> Optional guided tour (~&pound;425&ndash;650 for the group) or DIY with rental car</div>
         <div class="h-detail"><span class="h-label">&#127860;</span> Cornish cream teas, fresh seafood, and pasties</div>
       </div>
     </div>
@@ -955,148 +953,6 @@
   </div>
 </section>
 
-<!-- ==================== BUDGET ==================== -->
-<section class="section" id="budget">
-  <h2 class="section-title">Estimated Budget</h2>
-  <div class="section-line"></div>
-  <div class="budget-table-wrap">
-    <table class="budget-table">
-      <thead>
-        <tr>
-          <th>Category</th>
-          <th>Low Estimate</th>
-          <th>High Estimate</th>
-          <th>Notes</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>&#9992;&#65039; Flights (4 roundtrip)</td>
-          <td>$1,480</td>
-          <td>$2,700</td>
-          <td>SFO to LHR, economy</td>
-        </tr>
-        <tr>
-          <td>&#127960;&#65039; London Hotel (4 nights)</td>
-          <td>$390</td>
-          <td>$950</td>
-          <td>1 room, South Bank area</td>
-        </tr>
-        <tr>
-          <td>&#127968; Cornwall Accommodation (3 nights)</td>
-          <td>$225</td>
-          <td>$565</td>
-          <td>Penzance area</td>
-        </tr>
-        <tr>
-          <td>&#128642; Train London&harr;Cornwall (4 ppl RT)</td>
-          <td>$400</td>
-          <td>$640</td>
-          <td>GWR advance fares</td>
-        </tr>
-        <tr>
-          <td>&#127917; Theatre Tickets (4)</td>
-          <td>$180</td>
-          <td>$380</td>
-          <td>National Theatre, from &pound;36</td>
-        </tr>
-        <tr>
-          <td>&#9917; Match Tickets (4)</td>
-          <td>$640</td>
-          <td>$1,900</td>
-          <td>Via resellers</td>
-        </tr>
-        <tr>
-          <td>&#9968;&#65039; Poldark Tour (optional)</td>
-          <td>$0</td>
-          <td>$820</td>
-          <td>DIY or guided tour</td>
-        </tr>
-        <tr>
-          <td>&#127860; Food &amp; Misc (8 days)</td>
-          <td>$520</td>
-          <td>$800</td>
-          <td>~$65&ndash;100/day for 4</td>
-        </tr>
-        <tr class="total-row">
-          <td><strong>Total (all 4 people)</strong></td>
-          <td><strong>$3,835</strong></td>
-          <td><strong>$8,755</strong></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="per-person">
-    <h3>Estimated Cost Per Person</h3>
-    <div class="amount">$1,200 &ndash; $2,200</div>
-    <div class="note">Based on budget-optimized estimate of ~$5,000&ndash;6,000 total for all four</div>
-  </div>
-
-  <p class="budget-note">All estimates in USD. GBP to USD at approximately $1.26 per &pound;1. Actual costs depend on booking timing and choices.</p>
-</section>
-
-<!-- ==================== CHECKLIST ==================== -->
-<section class="section" id="checklist">
-  <h2 class="section-title">Booking Checklist</h2>
-  <div class="section-line"></div>
-  <div class="checklist-grid">
-
-    <div class="check-card">
-      <h3>&#128293; Book Now</h3>
-      <div class="check-item urgent">
-        <div class="check-box"></div>
-        <div>Theatre tickets &mdash; <em>Les Liaisons Dangereuses</em>, Fri May 22 at 7 PM. <span class="priority" style="background:#27ae60;color:#fff;">Booked &#10003;</span></div>
-      </div>
-      <div class="check-item urgent">
-        <div class="check-box"></div>
-        <div>Premier League tickets &mdash; Crystal Palace vs Arsenal, Sun May 24. Check reseller sites. <span class="priority high">Urgent</span></div>
-      </div>
-      <div class="check-item">
-        <div class="check-box"></div>
-        <div>Set flight price alerts on Google Flights &amp; KAYAK <span class="priority med">This Week</span></div>
-      </div>
-    </div>
-
-    <div class="check-card">
-      <h3>&#128197; Book by Mid-March</h3>
-      <div class="check-item">
-        <div class="check-box"></div>
-        <div>Flights &mdash; SFO to LHR, arriving Thu May 21</div>
-      </div>
-      <div class="check-item">
-        <div class="check-box"></div>
-        <div>London hotel &mdash; 4 nights, quad/family room near South Bank</div>
-      </div>
-      <div class="check-item">
-        <div class="check-box"></div>
-        <div>Cornwall accommodation &mdash; 3 nights in Penzance area</div>
-      </div>
-    </div>
-
-    <div class="check-card">
-      <h3>&#9989; Book When Ready</h3>
-      <div class="check-item">
-        <div class="check-box"></div>
-        <div>Train tickets &mdash; GWR Paddington to Penzance (advance fares)</div>
-      </div>
-      <div class="check-item">
-        <div class="check-box"></div>
-        <div>Poldark tour or car rental for Cornwall</div>
-      </div>
-      <div class="check-item">
-        <div class="check-box"></div>
-        <div>Travel insurance</div>
-      </div>
-      <div class="check-item">
-        <div class="check-box"></div>
-        <div>Verify all passports valid 6+ months past trip end</div>
-      </div>
-    </div>
-
-  </div>
-</section>
 
 <!-- ==================== PACKING ==================== -->
 <section class="section" id="packing">
@@ -1149,8 +1005,6 @@
   <div class="nav-dot" data-target="map-section" title="Map"></div>
   <div class="nav-dot" data-target="highlights" title="Highlights"></div>
   <div class="nav-dot" data-target="timeline" title="Timeline"></div>
-  <div class="nav-dot" data-target="budget" title="Budget"></div>
-  <div class="nav-dot" data-target="checklist" title="Checklist"></div>
   <div class="nav-dot" data-target="packing" title="Packing"></div>
 </nav>
 

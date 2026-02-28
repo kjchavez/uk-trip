@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trip Admin — England 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #1a1a2e;
+    --navy-light: #16213e;
+    --gold: #c9a96e;
+    --gold-light: #d4b87a;
+    --gold-dark: #b08d4f;
+    --cream: #f5f0e8;
+    --cream-dark: #ebe4d8;
+    --text: #2c2c3a;
+    --text-light: #6b6b7b;
+    --white: #ffffff;
+    --red: #c0392b;
+    --green: #27ae60;
+    --blue: #2980b9;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--cream);
+    color: var(--text);
+    line-height: 1.6;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Cormorant Garamond', 'Georgia', serif;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  a { color: var(--blue); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* ========== HEADER ========== */
+  .header {
+    background: var(--navy);
+    color: var(--white);
+    padding: 2.5rem 2rem;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+  }
+
+  .header p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 0.95rem;
+    color: var(--gold-light);
+    letter-spacing: 0.1em;
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: rgba(255,255,255,0.5);
+    font-size: 0.85rem;
+  }
+
+  .back-link:hover { color: var(--gold); text-decoration: none; }
+
+  /* ========== SECTIONS ========== */
+  .section {
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+    color: var(--navy);
+    margin-bottom: 0.5rem;
+  }
+
+  .section-line {
+    width: 60px;
+    height: 2px;
+    background: var(--gold);
+    margin-bottom: 2rem;
+  }
+
+  /* ========== BUDGET TABLE ========== */
+  .budget-table-wrap {
+    overflow-x: auto;
+  }
+
+  .budget-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+  }
+
+  .budget-table thead {
+    background: var(--navy);
+    color: var(--gold);
+  }
+
+  .budget-table th {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 1.2rem;
+    text-align: left;
+    letter-spacing: 0.05em;
+  }
+
+  .budget-table td {
+    padding: 0.85rem 1.2rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+  }
+
+  .budget-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .budget-table .total-row {
+    background: var(--cream);
+    font-weight: 600;
+  }
+
+  .budget-table .total-row td {
+    font-size: 1rem;
+    color: var(--navy);
+    border-top: 2px solid var(--gold);
+  }
+
+  .budget-note {
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    color: var(--text-light);
+    font-style: italic;
+  }
+
+  .per-person {
+    background: var(--navy);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+  }
+
+  .per-person h3 {
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+  }
+
+  .per-person .amount {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--white);
+  }
+
+  .per-person .note {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.6);
+    margin-top: 0.5rem;
+  }
+
+  /* ========== BOOKING CARDS ========== */
+  .booking-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  .booking-card {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+  }
+
+  .booking-card h3 {
+    font-size: 1.3rem;
+    color: var(--navy);
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid var(--cream-dark);
+  }
+
+  .booking-item {
+    margin-bottom: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid var(--cream-dark);
+  }
+
+  .booking-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  .booking-item h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.3rem;
+  }
+
+  .booking-item p {
+    font-size: 0.88rem;
+    color: var(--text-light);
+    margin-bottom: 0.3rem;
+  }
+
+  .booking-item .price {
+    font-weight: 600;
+    color: var(--navy);
+  }
+
+  .booking-item .links {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .booking-item .links a {
+    margin-right: 1rem;
+  }
+
+  .status-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+  }
+
+  .status-booked { background: #27ae60; color: #fff; }
+  .status-urgent { background: #fdecea; color: var(--red); }
+  .status-soon { background: #fef3cd; color: #856404; }
+
+  /* ========== CHECKLIST ========== */
+  .checklist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+
+  .check-card {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+  }
+
+  .check-card h3 {
+    font-size: 1.3rem;
+    color: var(--navy);
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid var(--cream-dark);
+  }
+
+  .check-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.7rem;
+    margin-bottom: 0.7rem;
+    font-size: 0.9rem;
+  }
+
+  .check-box {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--gold);
+    border-radius: 4px;
+    margin-top: 2px;
+  }
+
+  .check-item.urgent .check-box {
+    border-color: var(--red);
+    background: rgba(192,57,43,0.08);
+  }
+
+  .priority {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin-left: 0.3rem;
+  }
+
+  .priority.high { background: #fdecea; color: var(--red); }
+  .priority.med { background: #fef3cd; color: #856404; }
+
+  /* ========== FOOTER ========== */
+  .footer {
+    background: var(--navy);
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    font-size: 0.85rem;
+  }
+
+  @media (max-width: 768px) {
+    .section { padding: 2rem 1.2rem; }
+    .booking-grid { grid-template-columns: 1fr; }
+    .checklist-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <h1>Trip Admin</h1>
+  <p>England 2026 &mdash; Budget, Booking &amp; Logistics</p>
+  <a href="invitation.html" class="back-link">&larr; Back to invitation</a>
+</header>
+
+<!-- ==================== BUDGET ==================== -->
+<section class="section" id="budget">
+  <h2 class="section-title">Estimated Budget</h2>
+  <div class="section-line"></div>
+  <div class="budget-table-wrap">
+    <table class="budget-table">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Low Estimate</th>
+          <th>High Estimate</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&#9992;&#65039; Flights (4 roundtrip)</td>
+          <td>$1,480</td>
+          <td>$2,700</td>
+          <td>SFO to LHR, economy</td>
+        </tr>
+        <tr>
+          <td>&#127960;&#65039; London Hotel (4 nights)</td>
+          <td>$390</td>
+          <td>$950</td>
+          <td>1 room, South Bank area</td>
+        </tr>
+        <tr>
+          <td>&#127968; Cornwall Accommodation (3 nights)</td>
+          <td>$225</td>
+          <td>$565</td>
+          <td>Penzance area</td>
+        </tr>
+        <tr>
+          <td>&#128642; Train London&harr;Cornwall (4 ppl RT)</td>
+          <td>$400</td>
+          <td>$640</td>
+          <td>GWR advance fares</td>
+        </tr>
+        <tr>
+          <td>&#127917; Theatre Tickets (4)</td>
+          <td>$180</td>
+          <td>$380</td>
+          <td>National Theatre, from &pound;36</td>
+        </tr>
+        <tr>
+          <td>&#9917; Match Tickets (4)</td>
+          <td>$640</td>
+          <td>$1,900</td>
+          <td>Via resellers</td>
+        </tr>
+        <tr>
+          <td>&#9968;&#65039; Poldark Tour (optional)</td>
+          <td>$0</td>
+          <td>$820</td>
+          <td>DIY or guided tour</td>
+        </tr>
+        <tr>
+          <td>&#127860; Food &amp; Misc (8 days)</td>
+          <td>$520</td>
+          <td>$800</td>
+          <td>~$65&ndash;100/day for 4</td>
+        </tr>
+        <tr class="total-row">
+          <td><strong>Total (all 4 people)</strong></td>
+          <td><strong>$3,835</strong></td>
+          <td><strong>$8,755</strong></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="per-person">
+    <h3>Estimated Cost Per Person</h3>
+    <div class="amount">$1,200 &ndash; $2,200</div>
+    <div class="note">Based on budget-optimized estimate of ~$5,000&ndash;6,000 total for all four</div>
+  </div>
+
+  <p class="budget-note">All estimates in USD. GBP to USD at approximately $1.26 per &pound;1. Actual costs depend on booking timing and choices.</p>
+</section>
+
+<!-- ==================== BOOKING DETAILS ==================== -->
+<section class="section" id="booking">
+  <h2 class="section-title">Booking Details &amp; Links</h2>
+  <div class="section-line"></div>
+  <div class="booking-grid">
+
+    <div class="booking-card">
+      <h3>&#127917; Theatre Tickets</h3>
+      <div class="booking-item">
+        <h4>Les Liaisons Dangereuses <span class="status-badge status-booked">Booked</span></h4>
+        <p>Friday, May 22, 2026 at 7:00 PM</p>
+        <p>National Theatre, Lyttelton &mdash; South Bank, London SE1</p>
+        <p class="price">From &pound;36/ticket</p>
+        <div class="links">
+          <a href="https://www.nationaltheatre.org.uk/" target="_blank">National Theatre</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="booking-card">
+      <h3>&#9917; Match Tickets</h3>
+      <div class="booking-item">
+        <h4>Crystal Palace vs Arsenal <span class="status-badge status-urgent">Urgent</span></h4>
+        <p>Sunday, May 24, 2026 at 5:00 PM</p>
+        <p>Selhurst Park, London SE25</p>
+        <p class="price">~$160&ndash;470 per ticket via resellers</p>
+        <div class="links">
+          <a href="https://seatpick.com/crystal-palace-vs-arsenal-selhurst-park-tickets/event/377282" target="_blank">SeatPick</a>
+          <a href="https://www.livefootballtickets.com/fixtures/crystal-palace-v-arsenal-tickets-english-premier-league.html" target="_blank">LiveFootballTickets</a>
+          <a href="https://www.p1travel.com/en/organizer/crystal-palace" target="_blank">P1 Travel (official CPFC reseller)</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="booking-card">
+      <h3>&#9992;&#65039; Flights</h3>
+      <div class="booking-item">
+        <h4>SFO &rarr; LHR roundtrip <span class="status-badge status-soon">Book by mid-March</span></h4>
+        <p>4 economy tickets, arriving Thu May 21</p>
+        <p class="price">$1,480&ndash;$2,700 for all 4 (~$370&ndash;675/person)</p>
+        <p>Book 60&ndash;90 days ahead for best prices.</p>
+        <div class="links">
+          <a href="https://www.google.com/travel/flights" target="_blank">Google Flights</a>
+          <a href="https://www.kayak.com/flights" target="_blank">KAYAK</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="booking-card">
+      <h3>&#127960;&#65039; London Hotel</h3>
+      <div class="booking-item">
+        <h4>4 nights (May 21&ndash;25) <span class="status-badge status-soon">Book by mid-March</span></h4>
+        <p>1 family/quad room near South Bank</p>
+        <p class="price">$390&ndash;$950 total</p>
+        <p>Options: Premier Inn, Travelodge, or independent hotels near Waterloo.</p>
+        <div class="links">
+          <a href="https://www.premierinn.com/" target="_blank">Premier Inn</a>
+          <a href="https://www.booking.com/" target="_blank">Booking.com</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="booking-card">
+      <h3>&#127968; Cornwall Accommodation</h3>
+      <div class="booking-item">
+        <h4>3 nights in Penzance area (May 25&ndash;28) <span class="status-badge status-soon">Book by mid-March</span></h4>
+        <p class="price">$225&ndash;$565 total</p>
+        <p>Options: YHA Penzance, Premier Inn, or Queens Hotel.</p>
+        <div class="links">
+          <a href="https://www.yha.org.uk/" target="_blank">YHA</a>
+          <a href="https://www.booking.com/" target="_blank">Booking.com</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="booking-card">
+      <h3>&#128642; Train Tickets</h3>
+      <div class="booking-item">
+        <h4>London Paddington &harr; Penzance</h4>
+        <p>4 return tickets, GWR advance fares</p>
+        <p class="price">$400&ndash;$640 total (from &pound;42/person each way)</p>
+        <p>Book as soon as dates are final. Advance fares go on sale 12 weeks ahead.</p>
+        <div class="links">
+          <a href="https://www.gwr.com/" target="_blank">GWR</a>
+          <a href="https://www.thetrainline.com/" target="_blank">Trainline</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="booking-card">
+      <h3>&#9968;&#65039; Poldark Tour</h3>
+      <div class="booking-item">
+        <h4>Cornwall Filming Locations</h4>
+        <p>Private full-day guided tour for 4 people, or DIY with rental car.</p>
+        <p class="price">Guided: &pound;425&ndash;650 for the group | DIY: car rental + fuel</p>
+        <div class="links">
+          <a href="https://www.viator.com/tours/Cornwall/Poldark-West-Cornwall-Tour/d24556-89929P1" target="_blank">Viator</a>
+          <a href="https://cornwalltours.uk/tour/poldark-tour-of-west-cornwall/" target="_blank">Cornwall Tours (10% off with code &ldquo;2026&rdquo;)</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="booking-card">
+      <h3>&#128737;&#65039; Other</h3>
+      <div class="booking-item">
+        <h4>Travel Insurance</h4>
+        <p>Purchase after booking flights. Covers cancellations, medical, lost luggage.</p>
+      </div>
+      <div class="booking-item">
+        <h4>Passports</h4>
+        <p>Verify all 4 are valid 6+ months past trip end (Dec 2026). US citizens: no visa needed for stays under 6 months.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ==================== CHECKLIST ==================== -->
+<section class="section" id="checklist">
+  <h2 class="section-title">Booking Checklist</h2>
+  <div class="section-line"></div>
+  <div class="checklist-grid">
+
+    <div class="check-card">
+      <h3>&#128293; Book Now</h3>
+      <div class="check-item urgent">
+        <div class="check-box"></div>
+        <div>Theatre tickets &mdash; <em>Les Liaisons Dangereuses</em>, Fri May 22 at 7 PM. <span class="priority" style="background:#27ae60;color:#fff;">Booked &#10003;</span></div>
+      </div>
+      <div class="check-item urgent">
+        <div class="check-box"></div>
+        <div>Premier League tickets &mdash; Crystal Palace vs Arsenal, Sun May 24. Check reseller sites. <span class="priority high">Urgent</span></div>
+      </div>
+      <div class="check-item">
+        <div class="check-box"></div>
+        <div>Set flight price alerts on Google Flights &amp; KAYAK <span class="priority med">This Week</span></div>
+      </div>
+    </div>
+
+    <div class="check-card">
+      <h3>&#128197; Book by Mid-March</h3>
+      <div class="check-item">
+        <div class="check-box"></div>
+        <div>Flights &mdash; SFO to LHR, arriving Thu May 21</div>
+      </div>
+      <div class="check-item">
+        <div class="check-box"></div>
+        <div>London hotel &mdash; 4 nights, quad/family room near South Bank</div>
+      </div>
+      <div class="check-item">
+        <div class="check-box"></div>
+        <div>Cornwall accommodation &mdash; 3 nights in Penzance area</div>
+      </div>
+    </div>
+
+    <div class="check-card">
+      <h3>&#9989; Book When Ready</h3>
+      <div class="check-item">
+        <div class="check-box"></div>
+        <div>Train tickets &mdash; GWR Paddington to Penzance (advance fares)</div>
+      </div>
+      <div class="check-item">
+        <div class="check-box"></div>
+        <div>Poldark tour or car rental for Cornwall</div>
+      </div>
+      <div class="check-item">
+        <div class="check-box"></div>
+        <div>Travel insurance</div>
+      </div>
+      <div class="check-item">
+        <div class="check-box"></div>
+        <div>Verify all passports valid 6+ months past trip end</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <p>England 2026 &bull; Admin View &bull; <a href="invitation.html" style="color:var(--gold);">View Invitation</a></p>
+</footer>
+
+</body>
+</html>

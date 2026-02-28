@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>You're Invited — England 2026</title>
+<title>You're Invited — UK 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -26,6 +26,8 @@
     --red: #c0392b;
     --green: #27ae60;
     --blue: #2980b9;
+    --tartan: #8b2332;
+    --highland: #2d5a3d;
   }
 
   html { scroll-behavior: smooth; }
@@ -249,7 +251,7 @@
   /* ========== OVERVIEW ========== */
   .overview-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
   }
@@ -286,7 +288,7 @@
   }
 
   #map {
-    height: 450px;
+    height: 500px;
     width: 100%;
     border-radius: 12px;
     box-shadow: 0 4px 30px rgba(0,0,0,0.1);
@@ -319,7 +321,7 @@
   /* ========== HIGHLIGHT CARDS ========== */
   .highlights-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
   }
 
@@ -352,6 +354,10 @@
 
   .highlight-banner.poldark {
     background: linear-gradient(135deg, #2d4a22, #4a7a3d);
+  }
+
+  .highlight-banner.outlander {
+    background: linear-gradient(135deg, #5c1a2a, #8b2332);
   }
 
   .highlight-banner .h-emoji {
@@ -392,6 +398,108 @@
     flex-shrink: 0;
     width: 18px;
     text-align: center;
+  }
+
+  /* ========== EXPERIENCE SECTIONS ========== */
+  .experience-section {
+    padding: 5rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+
+  .experience-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .experience-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .experience-header h2 {
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    color: var(--navy);
+    margin-bottom: 0.5rem;
+  }
+
+  .experience-header p {
+    font-size: 1.05rem;
+    color: var(--text-light);
+    max-width: 700px;
+    margin: 1rem auto 0;
+    font-style: italic;
+  }
+
+  .experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .experience-card {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+    border-top: 4px solid var(--gold);
+  }
+
+  .experience-card.cornwall-card {
+    border-top-color: #4a7a3d;
+  }
+
+  .experience-card.scotland-card {
+    border-top-color: #8b2332;
+  }
+
+  .experience-card h4 {
+    font-size: 1.2rem;
+    color: var(--navy);
+    margin-bottom: 0.5rem;
+  }
+
+  .experience-card .card-show-ref {
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.8rem;
+    padding: 3px 10px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+
+  .experience-card .card-show-ref.poldark-ref {
+    background: rgba(74, 122, 61, 0.1);
+    color: #4a7a3d;
+  }
+
+  .experience-card .card-show-ref.outlander-ref {
+    background: rgba(139, 35, 50, 0.1);
+    color: #8b2332;
+  }
+
+  .experience-card p {
+    font-size: 0.93rem;
+    color: var(--text-light);
+    line-height: 1.6;
+  }
+
+  .experience-quote {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 2rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: var(--text-light);
+    border-top: 1px solid var(--cream-dark);
+    border-bottom: 1px solid var(--cream-dark);
   }
 
   /* ========== TIMELINE ========== */
@@ -456,6 +564,10 @@
     box-shadow: 0 2px 10px rgba(201,169,110,0.3);
   }
 
+  .timeline-day .tl-dot.scotland-dot {
+    background: var(--tartan);
+  }
+
   .tl-date {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -481,6 +593,26 @@
   .tl-highlight {
     border-left: 3px solid var(--gold);
   }
+
+  .tl-highlight-scotland {
+    border-left: 3px solid var(--tartan);
+  }
+
+  .tl-location-tag {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-bottom: 0.4rem;
+  }
+
+  .tag-london { background: #e8edf3; color: #1e3a5f; }
+  .tag-cornwall { background: #e8f0e4; color: #2d4a22; }
+  .tag-scotland { background: #f3e4e7; color: #5c1a2a; }
 
   /* ========== BUDGET ========== */
   .budget-table-wrap {
@@ -570,63 +702,6 @@
     color: rgba(255,255,255,0.6);
     margin-top: 0.5rem;
   }
-
-  /* ========== CHECKLIST & PACKING ========== */
-  .checklist-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-  }
-
-  .check-card {
-    background: var(--white);
-    border-radius: 12px;
-    padding: 2rem;
-    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
-  }
-
-  .check-card h3 {
-    font-size: 1.3rem;
-    color: var(--navy);
-    margin-bottom: 1.2rem;
-    padding-bottom: 0.8rem;
-    border-bottom: 1px solid var(--cream-dark);
-  }
-
-  .check-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 0.7rem;
-    margin-bottom: 0.7rem;
-    font-size: 0.9rem;
-  }
-
-  .check-box {
-    flex-shrink: 0;
-    width: 20px;
-    height: 20px;
-    border: 2px solid var(--gold);
-    border-radius: 4px;
-    margin-top: 2px;
-  }
-
-  .check-item.urgent .check-box {
-    border-color: var(--red);
-    background: rgba(192,57,43,0.08);
-  }
-
-  .check-item .priority {
-    font-size: 0.7rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    padding: 1px 6px;
-    border-radius: 3px;
-    margin-left: 0.3rem;
-  }
-
-  .priority.high { background: #fdecea; color: var(--red); }
-  .priority.med { background: #fef3cd; color: #856404; }
 
   /* ========== PACKING ========== */
   .packing-grid {
@@ -719,7 +794,7 @@
 
   /* ========== RESPONSIVE ========== */
   @media (max-width: 768px) {
-    .section { padding: 3rem 1.2rem; }
+    .section, .experience-section { padding: 3rem 1.2rem; }
 
     .timeline::before { left: 22px; }
 
@@ -746,7 +821,7 @@
 
     .nav-dots { display: none; }
 
-    #map { height: 350px; }
+    #map { height: 400px; }
   }
 
   @media (max-width: 480px) {
@@ -764,9 +839,9 @@
     <p class="hero-prelude">A birthday trip for Mom</p>
     <h1 class="hero-title">
       You're Invited
-      <span class="accent">to England</span>
+      <span class="accent">to England &amp; Scotland</span>
     </h1>
-    <p class="hero-subtitle">London &amp; Cornwall &mdash; Nine days of football, theatre, and wild coastal beauty</p>
+    <p class="hero-subtitle">London, Cornwall &amp; Edinburgh &mdash; Nine days of football, theatre, and the worlds of Poldark and Outlander</p>
     <div class="hero-date">May 23 &ndash; 31, 2026</div>
     <p class="hero-travelers">Elizabeth, Jessica, Kevin &amp; Grant</p>
   </div>
@@ -791,12 +866,12 @@
     <div class="overview-item">
       <div class="overview-icon">&#9968;</div>
       <h3>Poldark's Cornwall</h3>
-      <p>Botallack Mine, Holywell Bay, the Tin Coast &mdash; windswept cliffs and filming locations straight from the show.</p>
+      <p>Botallack Mine, Levant Mine, the Tin Coast &mdash; windswept cliffs and filming locations straight from the show.</p>
     </div>
     <div class="overview-item">
-      <div class="overview-icon">&#128507;</div>
-      <h3>London &amp; Beyond</h3>
-      <p>South Bank strolls, Borough Market, Big Ben, Greenwich &mdash; five days in one of the world's great cities.</p>
+      <div class="overview-icon">&#127984;</div>
+      <h3>Outlander's Scotland</h3>
+      <p>Castle Leoch, Lallybroch, Cranesmuir &mdash; step through the stones and into the Highlands from Edinburgh.</p>
     </div>
   </div>
 </section>
@@ -812,24 +887,9 @@
 
 <!-- ==================== HIGHLIGHT CARDS ==================== -->
 <section class="section" id="highlights">
-  <h2 class="section-title">Three Anchor Events</h2>
+  <h2 class="section-title">Four Anchor Events</h2>
   <div class="section-line"></div>
   <div class="highlights-grid">
-
-    <!-- Theatre -->
-    <div class="highlight-card">
-      <div class="highlight-banner theatre">
-        <span class="h-emoji">&#127917;</span>
-        <h3>Les Liaisons Dangereuses</h3>
-        <div class="h-sub">National Theatre &bull; Lyttelton</div>
-      </div>
-      <div class="highlight-body">
-        <div class="h-detail"><span class="h-label">&#128197;</span> Wednesday, May 27, 2026 at 7:00 PM &mdash; BOOKED &#10003;</div>
-        <div class="h-detail"><span class="h-label">&#127912;</span> Starring Aidan Turner &amp; Lesley Manville</div>
-        <div class="h-detail"><span class="h-label">&#128205;</span> South Bank, London SE1 &mdash; right by the Thames</div>
-        <div class="h-detail"><span class="h-label">&#128083;</span> Directed by Marianne Elliott &mdash; 18th-century seduction and betrayal</div>
-      </div>
-    </div>
 
     <!-- Football -->
     <div class="highlight-card">
@@ -846,6 +906,21 @@
       </div>
     </div>
 
+    <!-- Theatre -->
+    <div class="highlight-card">
+      <div class="highlight-banner theatre">
+        <span class="h-emoji">&#127917;</span>
+        <h3>Les Liaisons Dangereuses</h3>
+        <div class="h-sub">National Theatre &bull; Lyttelton</div>
+      </div>
+      <div class="highlight-body">
+        <div class="h-detail"><span class="h-label">&#128197;</span> Wednesday, May 27, 2026 at 7:00 PM &mdash; BOOKED &#10003;</div>
+        <div class="h-detail"><span class="h-label">&#127912;</span> Starring Aidan Turner &amp; Lesley Manville</div>
+        <div class="h-detail"><span class="h-label">&#128205;</span> South Bank, London SE1 &mdash; right by the Thames</div>
+        <div class="h-detail"><span class="h-label">&#128083;</span> Directed by Marianne Elliott &mdash; 18th-century seduction and betrayal</div>
+      </div>
+    </div>
+
     <!-- Poldark -->
     <div class="highlight-card">
       <div class="highlight-banner poldark">
@@ -854,13 +929,106 @@
         <div class="h-sub">Filming Locations &bull; Tin Coast</div>
       </div>
       <div class="highlight-body">
-        <div class="h-detail"><span class="h-label">&#128197;</span> Friday May 29 &ndash; Saturday May 30</div>
-        <div class="h-detail"><span class="h-label">&#128205;</span> Botallack Mine, Levant Mine, Holywell Bay, St Michael's Mount</div>
-        <div class="h-detail"><span class="h-label">&#127958;</span> Walk the cliff paths, see the iconic engine houses, and visit Ross's beach</div>
+        <div class="h-detail"><span class="h-label">&#128197;</span> Tuesday, May 26</div>
+        <div class="h-detail"><span class="h-label">&#128205;</span> Botallack Mine, Levant Mine, the South West Coast Path</div>
+        <div class="h-detail"><span class="h-label">&#127958;</span> Walk the cliff paths and see the iconic engine houses from the show</div>
         <div class="h-detail"><span class="h-label">&#127860;</span> Cornish cream teas, fresh seafood, and pasties</div>
       </div>
     </div>
 
+    <!-- Outlander -->
+    <div class="highlight-card">
+      <div class="highlight-banner outlander">
+        <span class="h-emoji">&#127984;</span>
+        <h3>Outlander's Scotland</h3>
+        <div class="h-sub">Filming Locations &bull; Edinburgh</div>
+      </div>
+      <div class="highlight-body">
+        <div class="h-detail"><span class="h-label">&#128197;</span> Friday, May 29</div>
+        <div class="h-detail"><span class="h-label">&#127984;</span> Doune Castle, Midhope Castle, Culross, Blackness Castle, Falkland</div>
+        <div class="h-detail"><span class="h-label">&#128214;</span> Castle Leoch, Lallybroch, Cranesmuir, Fort William &mdash; brought to life</div>
+        <div class="h-detail"><span class="h-label">&#127867;</span> Edinburgh: whisky, ghost tours, and the Royal Mile</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ==================== POLDARK EXPERIENCE ==================== -->
+<section class="experience-section" id="poldark-experience">
+  <div class="experience-header">
+    <h2>Into Poldark Country</h2>
+    <div class="section-line"></div>
+    <p>The wild Tin Coast of West Cornwall &mdash; where the 18th-century world of Ross Poldark was brought to life. Dramatic clifftop mines, crashing Atlantic waves, and paths along the edge of England.</p>
+  </div>
+  <div class="experience-grid">
+    <div class="experience-card cornwall-card">
+      <h4>Botallack Mine &amp; Crown Mines</h4>
+      <span class="card-show-ref poldark-ref">"Wheal Leisure" in Poldark</span>
+      <p>The most iconic image from the show: two engine houses perched impossibly on the cliffs above the Atlantic. This is where Ross's mining adventures come alive. A 15-minute walk from the car park along windswept coastal paths leads to the clifftop &mdash; and views that will take your breath away. The mines were real, dating to the 1830s, and the crashing waves below are as dramatic in person as they are on screen.</p>
+    </div>
+    <div class="experience-card cornwall-card">
+      <h4>Levant Mine &amp; Beam Engine</h4>
+      <span class="card-show-ref poldark-ref">Working Victorian mine</span>
+      <p>Just up the coast from Botallack, Levant is home to the oldest working beam engine in Cornwall &mdash; a giant Victorian machine that once pumped water from the mine shafts deep under the sea. Walk the South West Coast Path between Botallack and Levant (about a mile along the cliffs) for one of the most stunning coastal walks in Britain. Wild, windswept, and exactly what Poldark fans picture.</p>
+    </div>
+    <div class="experience-card cornwall-card">
+      <h4>St Michael's Mount</h4>
+      <span class="card-show-ref poldark-ref">Tidal island castle</span>
+      <p>A fairy-tale castle on a tidal island, rising from Mount's Bay just off the coast at Marazion. At low tide you walk across the ancient cobbled causeway; at high tide, you take a boat. The castle and subtropical gardens have been home to the St Aubyn family for generations. Visible from the Penzance promenade, it's the kind of place that makes you understand why Cornwall has inspired storytellers for centuries.</p>
+    </div>
+    <div class="experience-card cornwall-card">
+      <h4>The Cornish Experience</h4>
+      <span class="card-show-ref poldark-ref">Cream teas, seafood &amp; pasties</span>
+      <p>Cornwall isn't just filming locations &mdash; it's a world unto itself. Cream teas in a harbour cafe (cream first, then jam &mdash; the Cornish way). Fresh-caught fish and chips on the seafront at sunset. Proper Cornish pasties from a bakery in a harbour town. Penzance's Chapel Street with its ancient pubs, including The Turk's Head &mdash; serving since 1233. This is England at its most characterful.</p>
+    </div>
+  </div>
+  <div class="experience-quote">
+    "I am Ross Poldark, and this is my land." &mdash; The Tin Coast stretches before you, exactly as it did in the show. No green screen. All real.
+  </div>
+</section>
+
+<!-- ==================== OUTLANDER EXPERIENCE ==================== -->
+<section class="experience-section" id="outlander-experience">
+  <div class="experience-header">
+    <h2>Into Outlander Country</h2>
+    <div class="section-line"></div>
+    <p>The castles, villages, and landscapes of 18th-century Scotland &mdash; all within reach of Edinburgh. Step through the stones and into the world of Claire and Jamie Fraser.</p>
+  </div>
+  <div class="experience-grid">
+    <div class="experience-card scotland-card">
+      <h4>Doune Castle</h4>
+      <span class="card-show-ref outlander-ref">Castle Leoch &mdash; Clan MacKenzie</span>
+      <p>The great hall where Claire first meets Colum MacKenzie. The courtyard where she tends to Jamie's wounds. Doune Castle is the real Castle Leoch &mdash; a beautifully preserved medieval fortress near Stirling. The audio guide is narrated by Sam Heughan himself, walking you through exactly where key scenes were filmed. Standing in the great hall, you can almost hear the pipes and feel the firelight. Also famous for Monty Python and the Holy Grail.</p>
+    </div>
+    <div class="experience-card scotland-card">
+      <h4>Midhope Castle</h4>
+      <span class="card-show-ref outlander-ref">Lallybroch &mdash; Jamie's home</span>
+      <p>The exterior of Jamie Fraser's beloved family estate &mdash; the place he fights to protect, the home he carries in his heart across oceans and centuries. Midhope Castle sits on the Hopetoun Estate just outside Edinburgh. The Z-plan tower house looks exactly as it does on screen: the arched doorway, the courtyard, the tower. Exterior access only (the inside is derelict), but stepping into that courtyard is a genuine goosebumps moment for any fan.</p>
+    </div>
+    <div class="experience-card scotland-card">
+      <h4>Culross Village</h4>
+      <span class="card-show-ref outlander-ref">Cranesmuir &mdash; Geillis Duncan's village</span>
+      <p>The beautifully preserved 16th-century village of Culross (pronounced "COO-riss") doubles as Cranesmuir in the show. Walk the cobbled streets past the Mercat Cross where villagers gathered. Visit Culross Palace, whose garden became Claire's herb garden at Castle Leoch. See The Study &mdash; Geillis Duncan's house, where Claire first senses something isn't quite right about her new friend. The entire village feels like stepping back in time.</p>
+    </div>
+    <div class="experience-card scotland-card">
+      <h4>Blackness Castle</h4>
+      <span class="card-show-ref outlander-ref">Fort William &mdash; Black Jack Randall</span>
+      <p>The imposing ship-shaped fortress on the Firth of Forth that serves as the dreaded Fort William &mdash; where Jamie endures his brutal flogging at the hands of Captain "Black Jack" Randall. The 15th-century castle juts into the water like the prow of a stone ship. Dark, atmospheric, and unforgettable. The walls and dungeons feel exactly as oppressive as the show portrays. A compact visit (~45 minutes) that packs an emotional punch.</p>
+    </div>
+    <div class="experience-card scotland-card">
+      <h4>Falkland Village</h4>
+      <span class="card-show-ref outlander-ref">1940s Inverness &mdash; Where it all begins</span>
+      <p>The very first scenes of Outlander: Claire and Frank walking the streets of Inverness in 1945. The quaint village of Falkland stands in for the Highland capital. See the Bruce Fountain where Frank glimpses Jamie's ghost staring up at Claire's window &mdash; the moment that sets the entire story in motion. The Covenanter Hotel doubles as Mrs Baird's B&amp;B. Walk the same streets Claire walked before her world changed forever.</p>
+    </div>
+    <div class="experience-card scotland-card">
+      <h4>Edinburgh Itself</h4>
+      <span class="card-show-ref outlander-ref">The Royal Mile, whisky &amp; history</span>
+      <p>Edinburgh needs no fictional overlay to be magical. The castle towering over the city. The medieval Royal Mile descending through closes and courtyards. Arthur's Seat &mdash; the ancient volcano you can climb for 360-degree views. Ghost tours through underground vaults. A dram of single malt at a Royal Mile whisky bar. Late May means sunset at 9:30 PM and the city bathed in golden light. Edinburgh is where history, drama, and beauty collide.</p>
+    </div>
+  </div>
+  <div class="experience-quote">
+    "You are my home now." &mdash; From the standing stones to castle halls, Scotland's Outlander country is as wild and romantic as the story itself.
   </div>
 </section>
 
@@ -873,6 +1041,7 @@
     <!-- Day 1 -->
     <div class="timeline-day">
       <div class="tl-content">
+        <span class="tl-location-tag tag-london">London</span>
         <div class="tl-date">Day 1 &mdash; Sat, May 23</div>
         <h3 class="tl-title">Arrival in London</h3>
         <p class="tl-desc">Fly in from San Francisco. Check into our South Bank hotel, then stroll along the Thames past the London Eye, Tate Modern, and the South Bank Book Market. Dinner by the river. Rest up &mdash; it's match day tomorrow!</p>
@@ -883,6 +1052,7 @@
     <!-- Day 2 -->
     <div class="timeline-day">
       <div class="tl-content tl-highlight">
+        <span class="tl-location-tag tag-london">London</span>
         <div class="tl-date">Day 2 &mdash; Sun, May 24</div>
         <h3 class="tl-title">Match Day: Crystal Palace vs Arsenal</h3>
         <p class="tl-desc">Ease into London with a Full English Breakfast. Explore Covent Garden or the British Museum. By 3 PM, head to Selhurst Park for pre-match pub atmosphere. 5 PM kickoff &mdash; Premier League final day magic. All 10 matches at once.</p>
@@ -893,29 +1063,32 @@
     <!-- Day 3 -->
     <div class="timeline-day">
       <div class="tl-content">
+        <span class="tl-location-tag tag-cornwall">Cornwall</span>
         <div class="tl-date">Day 3 &mdash; Mon, May 25 (Bank Holiday)</div>
-        <h3 class="tl-title">London Sightseeing</h3>
-        <p class="tl-desc">Big Ben, Buckingham Palace, St James's Park. Afternoon in Greenwich &mdash; the Old Royal Naval College and its Painted Hall, then Greenwich Park for Thames views. Or the V&amp;A's 18th-century costume galleries for Poldark fans.</p>
+        <h3 class="tl-title">Train to Cornwall</h3>
+        <p class="tl-desc">Board the GWR from Paddington to Penzance &mdash; a 5-hour journey through gorgeous countryside. The train hugs the sea wall at Dawlish (sit on the left!). Arrive mid-afternoon, explore Penzance Promenade with views of St Michael's Mount. Dinner at a harbourside restaurant.</p>
       </div>
-      <div class="tl-dot">&#127963;&#65039;</div>
+      <div class="tl-dot">&#128642;</div>
     </div>
 
     <!-- Day 4 -->
     <div class="timeline-day">
-      <div class="tl-content">
+      <div class="tl-content tl-highlight">
+        <span class="tl-location-tag tag-cornwall">Cornwall</span>
         <div class="tl-date">Day 4 &mdash; Tue, May 26</div>
-        <h3 class="tl-title">More London</h3>
-        <p class="tl-desc">St Paul's Cathedral, the Globe Theatre, Camden Market, or the British Museum. Endless things to discover. Rest up &mdash; tomorrow is show night!</p>
+        <h3 class="tl-title">Poldark Day: Botallack &amp; the Tin Coast</h3>
+        <p class="tl-desc">The dramatic clifftop engine houses of Botallack Mine, Levant's working beam engine, and the South West Coast Path between them. Picnic on the cliffs. Afternoon at St Michael's Mount or Holywell Bay &mdash; where Ross gallops his horse. Fish and chips as the sun sets over Penzance.</p>
       </div>
-      <div class="tl-dot">&#127963;&#65039;</div>
+      <div class="tl-dot">&#9935;&#65039;</div>
     </div>
 
     <!-- Day 5 -->
     <div class="timeline-day">
       <div class="tl-content tl-highlight">
+        <span class="tl-location-tag tag-london">London</span>
         <div class="tl-date">Day 5 &mdash; Wed, May 27</div>
-        <h3 class="tl-title">Les Liaisons Dangereuses &#10003;</h3>
-        <p class="tl-desc">Borough Market for brunch, then a relaxed afternoon along the South Bank. Pre-theatre dinner at the National Theatre, then curtain up at 7 PM. Aidan Turner and Lesley Manville live on stage. Post-show drinks on the Thames terrace &mdash; a perfect farewell to London.</p>
+        <h3 class="tl-title">Cornwall to London &rarr; The Play &#10003;</h3>
+        <p class="tl-desc">Early morning train from Penzance, arriving London by 1 PM. Freshen up, then pre-theatre dinner at the National Theatre. Curtain up at 7 PM &mdash; Aidan Turner and Lesley Manville live on stage. Post-show drinks on the Thames terrace. A perfect farewell to London.</p>
       </div>
       <div class="tl-dot">&#127917;</div>
     </div>
@@ -923,46 +1096,49 @@
     <!-- Day 6 -->
     <div class="timeline-day">
       <div class="tl-content">
+        <span class="tl-location-tag tag-scotland">Scotland</span>
         <div class="tl-date">Day 6 &mdash; Thu, May 28</div>
-        <h3 class="tl-title">Train to Cornwall</h3>
-        <p class="tl-desc">Board the GWR from Paddington to Penzance &mdash; a 5-hour journey through gorgeous countryside. The train hugs the sea wall at Dawlish (sit on the left!). Arrive, settle in, explore Penzance Promenade with views of St Michael's Mount.</p>
+        <h3 class="tl-title">Fly to Edinburgh</h3>
+        <p class="tl-desc">Morning flight from London to Edinburgh (~1.5 hours). Check into our Old Town hotel. Afternoon exploring the Royal Mile, Greyfriars Kirkyard, and Calton Hill for panoramic views. Evening in the Grassmarket &mdash; pubs, haggis, and your first dram of Scottish whisky.</p>
       </div>
-      <div class="tl-dot">&#128642;</div>
+      <div class="tl-dot scotland-dot">&#9992;&#65039;</div>
     </div>
 
     <!-- Day 7 -->
     <div class="timeline-day">
-      <div class="tl-content tl-highlight">
+      <div class="tl-content tl-highlight-scotland">
+        <span class="tl-location-tag tag-scotland">Scotland</span>
         <div class="tl-date">Day 7 &mdash; Fri, May 29</div>
-        <h3 class="tl-title">Poldark Day: Botallack &amp; the Tin Coast</h3>
-        <p class="tl-desc">The dramatic clifftop engine houses of Botallack Mine ("Wheal Leisure"), Levant Mine's working beam engine, and the South West Coast Path. Optional: St Michael's Mount. Fish and chips on the seafront to end the day.</p>
+        <h3 class="tl-title">Outlander Day</h3>
+        <p class="tl-desc">A full day in Outlander country. Visit Doune Castle (Castle Leoch), Midhope Castle (Lallybroch), Culross (Cranesmuir), Blackness Castle (Fort William), and Falkland (1940s Inverness). Sam Heughan narrates the Doune Castle audio guide. Back to Edinburgh for a celebratory dinner.</p>
       </div>
-      <div class="tl-dot">&#9935;&#65039;</div>
+      <div class="tl-dot scotland-dot">&#127984;</div>
     </div>
 
     <!-- Day 8 -->
     <div class="timeline-day">
       <div class="tl-content">
+        <span class="tl-location-tag tag-scotland">Scotland</span>
         <div class="tl-date">Day 8 &mdash; Sat, May 30</div>
-        <h3 class="tl-title">Holywell Bay &amp; the Coast</h3>
-        <p class="tl-desc">Drive to Holywell Bay &mdash; where Ross gallops his horse in the Poldark credits. Sweeping beach, dunes, and sea caves. Lunch in Padstow (Cornish pasties!), then St Ives or the Minack Theatre for a final afternoon.</p>
+        <h3 class="tl-title">Edinburgh at Leisure</h3>
+        <p class="tl-desc">A free day to explore. Edinburgh Castle and Scotland's crown jewels. Climb Arthur's Seat for 360-degree views. A whisky tasting on the Royal Mile. Dean Village, the Scottish National Gallery, or just wandering the medieval closes. Farewell dinner at a candlelit Edinburgh restaurant.</p>
       </div>
-      <div class="tl-dot">&#127958;&#65039;</div>
+      <div class="tl-dot scotland-dot">&#127984;</div>
     </div>
 
     <!-- Day 9 -->
     <div class="timeline-day">
       <div class="tl-content">
+        <span class="tl-location-tag tag-scotland">Scotland</span>
         <div class="tl-date">Day 9 &mdash; Sun, May 31</div>
         <h3 class="tl-title">Departure</h3>
-        <p class="tl-desc">Leisurely Penzance breakfast. Train back to London Paddington, connecting to Heathrow for the flight home. Or fly from Newquay if available. Farewell, England.</p>
+        <p class="tl-desc">Leisurely Edinburgh morning. One last walk down the Royal Mile, last-minute whisky and shortbread. Fly home from Edinburgh via London, Amsterdam, or Dublin. Farewell, Britain.</p>
       </div>
       <div class="tl-dot">&#127968;</div>
     </div>
 
   </div>
 </section>
-
 
 <!-- ==================== PACKING ==================== -->
 <section class="section" id="packing">
@@ -979,11 +1155,11 @@
       <div class="pack-item">Comfortable walking shoes with grip</div>
       <div class="pack-item">Smart-casual outfit for the theatre</div>
       <div class="pack-item">Football-friendly gear for match day</div>
-      <div class="pack-item">Light scarf for coastal wind</div>
+      <div class="pack-item">Light scarf for coastal &amp; hilltop wind</div>
     </div>
     <div class="pack-group">
       <h4>&#128268; Essentials</h4>
-      <div class="pack-item">UK power adapter (Type G &mdash; 3 rectangular pins)</div>
+      <div class="pack-item">UK power adapter (Type G &mdash; works in England &amp; Scotland)</div>
       <div class="pack-item">Phone charger + portable battery</div>
       <div class="pack-item">Passport + printed copy</div>
       <div class="pack-item">No-foreign-transaction-fee credit card</div>
@@ -995,7 +1171,7 @@
       <div class="pack-item">Small daypack for daily adventures</div>
       <div class="pack-item">Reusable water bottle</div>
       <div class="pack-item">Binoculars for Cornwall wildlife</div>
-      <div class="pack-item">Offline Google Maps for Cornwall</div>
+      <div class="pack-item">Offline Google Maps: Cornwall + Edinburgh</div>
       <div class="pack-item">Train snacks (it's a 5-hour ride!)</div>
       <div class="pack-item">&pound;50&ndash;100 cash for rural Cornwall</div>
     </div>
@@ -1004,9 +1180,9 @@
 
 <!-- ==================== FOOTER ==================== -->
 <footer class="footer">
-  <div class="footer-tagline">"A Premier League final day. Aidan Turner live on stage.<br>Then the wild, windswept world of Poldark."</div>
+  <div class="footer-tagline">"A Premier League final day. Aidan Turner live on stage.<br>Poldark's wild Cornish cliffs. Then north &mdash; to Outlander's Scotland."</div>
   <p style="color:rgba(255,255,255,0.5); font-size:0.95rem;">Let's make it happen.</p>
-  <p class="footer-sub">London &amp; Cornwall &bull; May 23&ndash;31, 2026 &bull; Elizabeth, Jessica, Kevin &amp; Grant</p>
+  <p class="footer-sub">London, Cornwall &amp; Edinburgh &bull; May 23&ndash;31, 2026 &bull; Elizabeth, Jessica, Kevin &amp; Grant</p>
 </footer>
 
 <!-- ==================== NAV DOTS ==================== -->
@@ -1014,6 +1190,8 @@
   <div class="nav-dot" data-target="overview" title="Overview"></div>
   <div class="nav-dot" data-target="map-section" title="Map"></div>
   <div class="nav-dot" data-target="highlights" title="Highlights"></div>
+  <div class="nav-dot" data-target="poldark-experience" title="Poldark"></div>
+  <div class="nav-dot" data-target="outlander-experience" title="Outlander"></div>
   <div class="nav-dot" data-target="timeline" title="Timeline"></div>
   <div class="nav-dot" data-target="packing" title="Packing"></div>
 </nav>
@@ -1021,9 +1199,9 @@
 <script>
 // ========== STARS ==========
 (function() {
-  const container = document.getElementById('stars');
-  for (let i = 0; i < 60; i++) {
-    const star = document.createElement('span');
+  var container = document.getElementById('stars');
+  for (var i = 0; i < 60; i++) {
+    var star = document.createElement('span');
     star.style.left = Math.random() * 100 + '%';
     star.style.top = Math.random() * 100 + '%';
     star.style.animationDelay = (Math.random() * 3) + 's';
@@ -1034,8 +1212,8 @@
 
 // ========== SCROLL ANIMATIONS ==========
 (function() {
-  const sections = document.querySelectorAll('.section, .section-full');
-  const observer = new IntersectionObserver(function(entries) {
+  var sections = document.querySelectorAll('.section, .section-full, .experience-section');
+  var observer = new IntersectionObserver(function(entries) {
     entries.forEach(function(entry) {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
@@ -1048,7 +1226,7 @@
 
 // ========== NAV DOTS ==========
 (function() {
-  const dots = document.querySelectorAll('.nav-dot');
+  var dots = document.querySelectorAll('.nav-dot');
   dots.forEach(function(dot) {
     dot.addEventListener('click', function() {
       var target = document.getElementById(dot.dataset.target);
@@ -1074,7 +1252,7 @@
 (function() {
   var map = L.map('map', {
     scrollWheelZoom: false
-  }).setView([51.2, -2.5], 7);
+  }).setView([54.5, -2.5], 6);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
@@ -1092,42 +1270,71 @@
     });
   }
 
-  // Markers
-  var london = L.marker([51.5074, -0.1157], { icon: makeIcon('&#127963;') })
+  // London
+  L.marker([51.5074, -0.1157], { icon: makeIcon('&#127963;') })
     .addTo(map)
-    .bindPopup('<div class="popup-title">London &mdash; South Bank</div>Days 1&ndash;6: Our home base near Waterloo. Football, theatre, museums, Borough Market, and the Thames at night.');
+    .bindPopup('<div class="popup-title">London &mdash; South Bank</div>Days 1&ndash;2 &amp; 5: Football, theatre, museums, Borough Market, and the Thames at night.');
 
-  var selhurst = L.marker([51.3983, -0.0855], { icon: makeIcon('&#9917;') })
+  // Selhurst Park
+  L.marker([51.3983, -0.0855], { icon: makeIcon('&#9917;') })
     .addTo(map)
-    .bindPopup('<div class="popup-title">Selhurst Park</div>Day 2: Crystal Palace vs Arsenal. Premier League final matchday, 5 PM kickoff. The atmosphere is legendary.');
+    .bindPopup('<div class="popup-title">Selhurst Park</div>Day 2: Crystal Palace vs Arsenal. Premier League final matchday, 5 PM kickoff.');
 
-  var penzance = L.marker([50.1186, -5.5372], { icon: makeIcon('&#127758;') })
+  // Penzance
+  L.marker([50.1186, -5.5372], { icon: makeIcon('&#127758;') })
     .addTo(map)
-    .bindPopup('<div class="popup-title">Penzance, Cornwall</div>Days 6&ndash;9: Our Cornwall base. Promenade walks, St Michael\'s Mount, seafood, and the gateway to Poldark country.');
+    .bindPopup('<div class="popup-title">Penzance, Cornwall</div>Days 3&ndash;4: Our Cornwall base. Promenade walks, St Michael\'s Mount, seafood, and the gateway to Poldark country.');
 
-  var botallack = L.marker([50.1432, -5.6895], { icon: makeIcon('&#9935;') })
+  // Botallack
+  L.marker([50.1432, -5.6895], { icon: makeIcon('&#9935;') })
     .addTo(map)
-    .bindPopup('<div class="popup-title">Botallack Mine</div>Day 7: The iconic clifftop engine houses &mdash; "Wheal Leisure" in Poldark. Walk the Tin Coast between Botallack and Levant Mine.');
+    .bindPopup('<div class="popup-title">Botallack Mine</div>Day 4: The iconic clifftop engine houses &mdash; "Wheal Leisure" in Poldark. Walk the Tin Coast between Botallack and Levant Mine.');
 
-  var holywell = L.marker([50.3927, -5.1520], { icon: makeIcon('&#127754;') })
+  // Edinburgh
+  L.marker([55.9533, -3.1883], { icon: makeIcon('&#127984;') })
     .addTo(map)
-    .bindPopup('<div class="popup-title">Holywell Bay</div>Day 8: Where Ross gallops his horse in the opening credits. Sweeping sand, dunes, and sea caves at low tide.');
+    .bindPopup('<div class="popup-title">Edinburgh</div>Days 6&ndash;9: Our Scotland base. The Royal Mile, Edinburgh Castle, whisky, ghost tours, and the gateway to Outlander country.');
 
-  // Route lines
+  // Doune Castle
+  L.marker([56.1935, -4.0531], { icon: makeIcon('&#127984;') })
+    .addTo(map)
+    .bindPopup('<div class="popup-title">Doune Castle (Castle Leoch)</div>Day 7: Where Claire first meets Clan MacKenzie. Audio guide narrated by Sam Heughan.');
+
+  // Midhope Castle
+  L.marker([56.0027, -3.4570], { icon: makeIcon('&#127984;') })
+    .addTo(map)
+    .bindPopup('<div class="popup-title">Midhope Castle (Lallybroch)</div>Day 7: Jamie Fraser\'s beloved family home. The iconic arched doorway and courtyard.');
+
+  // Culross
+  L.marker([56.0567, -3.6287], { icon: makeIcon('&#127984;') })
+    .addTo(map)
+    .bindPopup('<div class="popup-title">Culross (Cranesmuir)</div>Day 7: The village of Geillis Duncan. Claire\'s herb garden at Culross Palace.');
+
+  // Blackness Castle
+  L.marker([56.0058, -3.5172], { icon: makeIcon('&#127984;') })
+    .addTo(map)
+    .bindPopup('<div class="popup-title">Blackness Castle (Fort William)</div>Day 7: The imposing fortress where Jamie was flogged by Black Jack Randall.');
+
+  // Falkland
+  L.marker([56.2531, -3.2084], { icon: makeIcon('&#127984;') })
+    .addTo(map)
+    .bindPopup('<div class="popup-title">Falkland (1940s Inverness)</div>Day 7: Where Frank sees Jamie\'s ghost. The village that starts the entire Outlander story.');
+
+  // Route: London to Cornwall
   L.polyline([
     [51.5074, -0.1157],
     [51.15, -1.5],
     [50.72, -3.5],
     [50.1186, -5.5372]
   ], {
-    color: '#c9a96e',
+    color: '#4a7a3d',
     weight: 2.5,
     opacity: 0.6,
     dashArray: '8, 8',
     smoothFactor: 2
-  }).addTo(map).bindPopup('GWR train: London Paddington to Penzance &mdash; 5 hours through stunning countryside. The train hugs the coast at Dawlish!');
+  }).addTo(map).bindPopup('GWR train: London Paddington to Penzance &mdash; 5 hours through stunning countryside.');
 
-  // Cornwall route
+  // Route: Cornwall local
   L.polyline([
     [50.1186, -5.5372],
     [50.1432, -5.6895]
@@ -1138,20 +1345,40 @@
     dashArray: '5, 5'
   }).addTo(map);
 
+  // Route: London to Edinburgh
   L.polyline([
-    [50.1186, -5.5372],
-    [50.3927, -5.1520]
+    [51.5074, -0.1157],
+    [52.5, -1.0],
+    [53.8, -1.5],
+    [55.0, -2.5],
+    [55.9533, -3.1883]
   ], {
-    color: '#4a7a3d',
+    color: '#8b2332',
+    weight: 2.5,
+    opacity: 0.6,
+    dashArray: '8, 8',
+    smoothFactor: 2
+  }).addTo(map).bindPopup('Flight: London to Edinburgh &mdash; 1.5 hours. Into Outlander country.');
+
+  // Route: Edinburgh to Outlander sites (loop)
+  L.polyline([
+    [55.9533, -3.1883],
+    [56.0027, -3.4570],
+    [56.0058, -3.5172],
+    [56.0567, -3.6287],
+    [56.2531, -3.2084],
+    [56.1935, -4.0531]
+  ], {
+    color: '#8b2332',
     weight: 2,
-    opacity: 0.5,
+    opacity: 0.4,
     dashArray: '5, 5'
   }).addTo(map);
 
-  // Fit bounds
+  // Fit bounds to show all of Great Britain
   map.fitBounds([
-    [51.55, 0.1],
-    [50.05, -5.75]
+    [56.5, 0.2],
+    [50.0, -5.8]
   ], { padding: [30, 30] });
 })();
 </script>

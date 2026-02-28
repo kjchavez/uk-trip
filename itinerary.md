@@ -1,4 +1,4 @@
-# UK Trip Itinerary: London & Cornwall
+# UK Trip Itinerary: London, Cornwall & Scotland
 ## May 23 - May 31, 2026 | Elizabeth, Jessica, Kevin & Grant
 
 ---
@@ -7,13 +7,16 @@
 
 | Segment | Dates | Nights | Base |
 |---------|-------|--------|------|
-| **London** | Sat May 23 - Thu May 28 | 5 nights | South Bank / Waterloo |
-| **Cornwall** | Thu May 28 - Sun May 31 | 3 nights | Penzance area |
-| **Fly home** | Sun May 31 | -- | From London or Newquay |
+| **London** | Sat May 23 - Mon May 25 | 2 nights | South Bank / Waterloo |
+| **Cornwall** | Mon May 25 - Wed May 27 | 2 nights | Penzance area |
+| **London** (return) | Wed May 27 | 1 night | South Bank / Waterloo |
+| **Edinburgh** | Thu May 28 - Sun May 31 | 3 nights | Old Town / Royal Mile |
+| **Fly home** | Sun May 31 | -- | From Edinburgh (via connection) |
 
 **Anchor events:**
 - **Crystal Palace vs Arsenal** — Premier League final matchday, **Sunday May 24 at 5:00 PM**, Selhurst Park
 - **Les Liaisons Dangereuses** — **Wednesday May 27 at 7:00 PM**, National Theatre (Lyttelton) — TICKETS BOOKED ✓
+- **Outlander filming locations** — **Friday May 29**, day tour from Edinburgh
 
 ---
 
@@ -21,11 +24,16 @@
 
 - [x] **Theatre tickets** — Wed May 27 at 7:00 PM, 4 tickets ✓
 - [ ] **Premier League tickets** — Crystal Palace vs Arsenal, Sun May 24. Buy via [SeatPick](https://seatpick.com/crystal-palace-vs-arsenal-selhurst-park-tickets/event/377282), [LiveFootballTickets](https://www.livefootballtickets.com/fixtures/crystal-palace-v-arsenal-tickets-english-premier-league.html), or [P1 Travel](https://www.p1travel.com/en/organizer/crystal-palace)
-- [ ] **Flights** — Arrive Sat May 23, depart Sun May 31. [Google Flights](https://www.google.com/travel/flights)
-- [ ] **London hotel** — 5 nights (Sat May 23 - Thu May 28), family/quad room near Waterloo
-- [ ] **Cornwall accommodation** — 3 nights (Thu May 28 - Sun May 31), Penzance area
-- [ ] **Train to Cornwall** — [GWR](https://www.gwr.com/) London Paddington → Penzance, Thu May 28 morning. Advance singles from ~£42/person
-- [ ] **Poldark tour (optional)** — [Viator](https://www.viator.com/tours/Cornwall/Poldark-West-Cornwall-Tour/d24556-89929P1), [Brit Movie Tours](https://britmovietours.com/bookings/poldark-tour-of-locations/) (£650 for 1-5 people), or [Cornwall Tours](https://cornwalltours.uk/tour/poldark-tour-of-west-cornwall/) (10% off with code "2026")
+- [ ] **Flights outbound** — Arrive Sat May 23 at London Heathrow/Gatwick. [Google Flights](https://www.google.com/travel/flights)
+- [ ] **Flights home** — Edinburgh → SFO via connection (LHR, AMS, or DUB), Sun May 31. [Google Flights](https://www.google.com/travel/flights)
+- [ ] **London hotel** — 3 nights total: 2 nights (Sat May 23 - Mon May 25) + 1 night (Wed May 27), family/quad room near Waterloo
+- [ ] **Cornwall accommodation** — 2 nights (Mon May 25 - Wed May 27), Penzance area
+- [ ] **Edinburgh hotel** — 3 nights (Thu May 28 - Sun May 31), Old Town or Royal Mile area
+- [ ] **Train to Cornwall** — [GWR](https://www.gwr.com/) London Paddington → Penzance, Mon May 25 morning. Advance singles from ~£42/person
+- [ ] **Train from Cornwall** — [GWR](https://www.gwr.com/) Penzance → London Paddington, Wed May 27 early morning. Must arrive by ~1pm for theatre.
+- [ ] **Flight London → Edinburgh** — Thu May 28. EasyJet, Ryanair, or BA. ~£25-60/person one-way
+- [ ] **Outlander day tour** — Fri May 29 from Edinburgh. [Rabbie's](https://www.rabbies.com/en-us/tour/outlander-day-tour-from-edinburgh), [Highland Explorer Tours](https://highlandexplorertours.com/1-day-tours/outlander-explorer), or [Viator](https://www.viator.com/searchResults/all?text=outlander+edinburgh)
+- [ ] **Poldark tour (optional)** — Tue May 26. [Viator](https://www.viator.com/tours/Cornwall/Poldark-West-Cornwall-Tour/d24556-89929P1), [Brit Movie Tours](https://britmovietours.com/bookings/poldark-tour-of-locations/) (£650 for 1-5 people), or [Cornwall Tours](https://cornwalltours.uk/tour/poldark-tour-of-west-cornwall/) (10% off with code "2026")
 
 ---
 
@@ -68,9 +76,9 @@
 
 #### Early Afternoon
 - **Free time** — explore the neighbourhood or take it easy:
-  - **Borough Market** is closed on Sundays, but the South Bank is lovely for a walk.
   - **Covent Garden** (street performers, shops, restaurants)
   - **British Museum** (free) — [britishmuseum.org](https://www.britishmuseum.org/)
+  - Walk across **Westminster Bridge** for Big Ben / Houses of Parliament views
 
 #### Getting to Selhurst Park
 - **Leave by 3:00-3:30 PM** to arrive with time to soak in the atmosphere.
@@ -99,91 +107,12 @@
 
 ---
 
-### Day 3 — Monday, May 25 (Bank Holiday): London Sightseeing 🇬🇧
+### Day 3 — Monday, May 25 (Bank Holiday): London to Cornwall 🚂
 
-**Theme:** Bank Holiday Monday — relaxed London exploring. Many shops may have reduced hours, but museums and parks are open.
-
-#### Morning
-- **Borough Market** (open Wed-Sat, so closed today) — instead, grab breakfast at a café near the hotel.
-- **Westminster walk**: Cross Westminster Bridge from South Bank.
-  - See **Big Ben / Houses of Parliament** up close.
-  - Walk through **St James's Park** (gorgeous in late May).
-  - **Buckingham Palace** — Changing of the Guard may not run on Bank Holidays (verify at [changing-guard.com](https://changing-guard.com/dates-buckingham-palace.html)).
-
-#### Late Morning
-- **Churchill War Rooms** (optional, ~£28pp) — [iwm.org.uk](https://www.iwm.org.uk/visits/churchill-war-rooms). Fascinating underground WWII bunker.
-
-#### Afternoon — Period Drama London
-- **Take the Tube to Greenwich** (Jubilee Line or DLR to Cutty Sark).
-  - **The Old Royal Naval College** — filming location for many period dramas. The Painted Hall is breathtaking. [ornc.org](https://www.ornc.org/) — entry ~£15pp.
-  - Walk through **Greenwich Park** for Thames views.
-  - **National Maritime Museum** (free) — connects to Cornwall's maritime heritage.
-
-- **Alternative:** Visit the **V&A Museum** (free, South Kensington) — 18th-century costume galleries perfect for Poldark fans. [vam.ac.uk](https://www.vam.ac.uk/)
-
-#### Evening
-- **Dinner in Soho or South Bank** — explore and find something that catches your eye.
-- Or **Skylon Restaurant** at the Royal Festival Hall — modern British, river views. [skylon-restaurant.co.uk](https://www.skylon-restaurant.co.uk/)
-
----
-
-### Day 4 — Tuesday, May 26: Classic London Sightseeing
-
-**Theme:** Big London landmarks, markets, and the city at its best.
+**Theme:** Bank Holiday — London is quiet, perfect day to head to Cornwall. The train journey is part of the adventure.
 
 #### Morning
-- **Borough Market** (open Wed-Sat... but Tuesday is a miss! See below for alternatives).
-  - Instead: **Maltby Street Market** (Sat-Sun only) or grab pastries from a local bakery.
-  - Or start with **St Paul's Cathedral** (entry ~£23pp, or admire from outside). [stpauls.co.uk](https://www.stpauls.co.uk/)
-- Walk past the **Globe Theatre** — [shakespearesglobe.com](https://www.shakespearesglobe.com/)
-
-#### Afternoon
-- **Free time** — explore somewhere new:
-  - **Camden Market** (vibrant, eclectic — Tube to Camden Town)
-  - **British Museum** (free) — [britishmuseum.org](https://www.britishmuseum.org/)
-  - **Notting Hill & Portobello Road** (the market is best on Saturdays, but the neighbourhood is charming anytime)
-
-#### Evening
-- **Dinner in Soho** — Chinatown, Theatreland, endless options.
-- Rest up — tomorrow is show night!
-
----
-
-### Day 5 — Wednesday, May 27: THE PLAY — Les Liaisons Dangereuses 🎭
-
-**Theme:** Relaxed day building up to the main event.
-
-#### Morning
-- **Borough Market** (open Wed-Sat) — 10 min walk from hotel.
-  [boroughmarket.org.uk](https://boroughmarket.org.uk/)
-  - Wander the stalls, sample British cheeses, pastries, and fresh food.
-  - Great brunch from the stalls by Southwark Cathedral.
-
-#### Afternoon
-- **Cross the Millennium Bridge** to admire **St Paul's Cathedral** from across the river.
-- Walk along the South Bank. Browse the **South Bank Book Market** under Waterloo Bridge.
-- **Head back to the hotel** to rest and freshen up — tonight is special.
-
-#### Evening — THE PLAY 🎭
-- **5:00-5:30 PM:** Pre-theatre dinner.
-  - **House Restaurant at the National Theatre** — right in the building. [nationaltheatre.org.uk/eat-and-drink](https://www.nationaltheatre.org.uk/your-visit/eat-and-drink)
-  - Or **Tas Restaurant** (The Cut, Waterloo) — affordable Turkish/Mediterranean, popular pre-theatre. [tasrestaurants.co.uk](https://www.tasrestaurants.co.uk/)
-
-- **7:00 PM:** **Les Liaisons Dangereuses** at the **National Theatre (Lyttelton Theatre)**
-  - Starring **Aidan Turner** and **Lesley Manville**
-  - Directed by **Marianne Elliott**
-  - **Tip:** Arrive 30 min early for drinks at the NT bar. The brutalist terraces overlooking the Thames are iconic.
-
-- **After the show:** Drinks on the South Bank. The NT bar stays open after performances. Walk along the river — London at night from the South Bank is unforgettable. A perfect farewell to London before heading to Cornwall tomorrow.
-
----
-
-### Day 6 — Thursday, May 28: London to Cornwall by Train 🚂
-
-**Theme:** Travel day — but make it scenic.
-
-#### Morning
-- **Checkout** from London hotel.
+- **Check out** of London hotel (or store bags if returning to the same hotel Wed night).
 - Grab breakfast or pick up pastries/coffee for the train.
 - **Get to London Paddington station:**
   - From Waterloo: Bakerloo Line to Paddington (~15 min).
@@ -192,13 +121,13 @@
 #### The Train Journey
 - **GWR London Paddington → Penzance**
   - Journey: ~5 hours 15-30 minutes
-  - Recommended departure: **~9:00 AM or 10:00 AM** (arrives ~2:15-3:30 PM)
+  - Recommended departure: **~9:00 AM** (arrives ~2:15 PM)
   - The stretch after Exeter is spectacular — the train runs along the sea wall at Dawlish. **Sit on the left side** (facing forward) for sea views.
   - [Book advance tickets on GWR](https://www.gwr.com/) — advance singles from ~£42/person
   - **Tip:** Book a table seat. Bring snacks. The GWR buffet car sells drinks and sandwiches.
 
 #### Afternoon
-- **Arrive in Penzance** around 2:30-3:30 PM.
+- **Arrive in Penzance** around 2:15-2:30 PM.
 - **Check in** to accommodation.
 - **Explore Penzance on foot:**
   - Walk along the **Penzance Promenade** with views across Mount's Bay to St Michael's Mount.
@@ -209,12 +138,13 @@
 - **Dinner at The Shore** — fresh seafood, harbor views. [theshorepenzance.co.uk](https://www.theshorepenzance.co.uk/)
 - Or **The Turk's Head** — Penzance's oldest pub (since 1233!). Chapel Street.
 - Or **Mackerel Sky Seafood Bar** — tiny, brilliant, seasonal Cornish seafood.
+- Early night — big Poldark day tomorrow!
 
 ---
 
-### Day 7 — Friday, May 29: Poldark Day — Botallack & The Tin Coast ⛏️
+### Day 4 — Tuesday, May 26: Poldark Day — Botallack & The Tin Coast ⛏️
 
-**Theme:** Windswept cliffs, dramatic mines, and Poldark magic.
+**Theme:** Windswept cliffs, dramatic mines, and Poldark magic. One full day to hit the highlights.
 
 #### Option A: Private Poldark Tour (~£425-650 for the group)
 - A guide picks you up from Penzance and drives you to all key filming locations.
@@ -238,81 +168,218 @@
 
 - **Walk the South West Coast Path** between Botallack and Levant (~1 mile along the cliffs). Wild, beautiful, and exactly what the Poldark fans picture.
 
-##### Afternoon
-- **Wheal Coates at Chapel Porth** (St Agnes, ~40 min from Botallack) — another dramatic clifftop mine ruin from Poldark.
-  - [National Trust - Wheal Coates](https://www.nationaltrust.org.uk/visit/cornwall/wheal-coates)
-
+##### Midday
 - **Lunch near Botallack/St Just:**
   - **The Cook Book Cafe, St Just** — home-cooked food.
   - **Cape Cornwall Golf Club Cafe** — simple but extraordinary views.
   - Or bring a picnic and eat on the cliffs.
 
-##### Late Afternoon
-- **St Michael's Mount** — tidal island with castle, at Marazion (10 min from Penzance).
-  - [stmichaelsmount.co.uk](https://www.stmichaelsmount.co.uk/) — entry ~£18pp. Check tide times at [tidetimes.org.uk](https://www.tidetimes.org.uk/)!
+##### Afternoon — Choose one or two:
+- **Holywell Bay** (~1 hour from Botallack) — where Ross gallops his horse in the opening credits. Sweeping beach, massive dunes. [National Trust - Holywell Bay](https://www.nationaltrust.org.uk/visit/cornwall/holywell-bay)
+- **St Michael's Mount** — tidal island with castle, at Marazion (10 min from Penzance). [stmichaelsmount.co.uk](https://www.stmichaelsmount.co.uk/) — entry ~£18pp. Check tide times!
+- **Porthcurno & Minack Theatre** — stunning turquoise cove + open-air theatre carved into cliffs. [minack.com](https://www.minack.com/) — venue entry £8pp.
 
-#### Evening
+#### Evening — Last Cornish Supper
 - **The Bakehouse** — excellent restaurant on Chapel Street, Penzance. [bakehouserestaurant.co.uk](https://www.bakehouserestaurant.co.uk/)
-- Or classic **fish and chips on the seafront**.
+- Or classic **fish and chips on the seafront** — sometimes simple is perfect.
+- **Pack up tonight** — early train back to London tomorrow morning.
 
 ---
 
-### Day 8 — Saturday, May 30: Holywell Bay & North Coast 🏖️
+### Day 5 — Wednesday, May 27: Cornwall to London → THE PLAY 🎭
 
-**Theme:** Beach, dunes, and the wilder side of Cornwall.
+**Theme:** Travel morning, then the main event. Aidan Turner on stage tonight.
+
+#### Early Morning
+- **Check out** of Cornwall accommodation.
+- **Early train: Penzance → London Paddington**
+  - Recommended: **~7:00-7:30 AM departure** (arrives ~12:15-12:45 PM)
+  - This gives a comfortable buffer before the 7pm curtain
+  - Grab breakfast at the station or bring pastries for the train
+  - [Book advance tickets on GWR](https://www.gwr.com/)
+
+#### Afternoon
+- **Arrive London Paddington ~12:30 PM.**
+- **Check in** to hotel (same hotel as before, or a different one near Waterloo).
+- Freshen up, rest, decompress after the train.
+- **Light afternoon stroll** — you know the South Bank by now. Browse the **Book Market**, grab a coffee.
+
+#### Evening — THE PLAY 🎭
+- **5:00-5:30 PM:** Pre-theatre dinner.
+  - **House Restaurant at the National Theatre** — right in the building. [nationaltheatre.org.uk/eat-and-drink](https://www.nationaltheatre.org.uk/your-visit/eat-and-drink)
+  - Or **Tas Restaurant** (The Cut, Waterloo) — affordable Turkish/Mediterranean, popular pre-theatre. [tasrestaurants.co.uk](https://www.tasrestaurants.co.uk/)
+
+- **7:00 PM:** **Les Liaisons Dangereuses** at the **National Theatre (Lyttelton Theatre)**
+  - Starring **Aidan Turner** and **Lesley Manville**
+  - Directed by **Marianne Elliott**
+  - **Tip:** Arrive 30 min early for drinks at the NT bar. The brutalist terraces overlooking the Thames are iconic.
+
+- **After the show:** Drinks on the South Bank. The NT bar stays open after performances. Walk along the river — London at night from the South Bank is unforgettable.
+
+---
+
+### Day 6 — Thursday, May 28: London to Edinburgh ✈️
+
+**Theme:** Fly north to Scotland. First taste of Edinburgh.
 
 #### Morning
-- **Drive to Holywell Bay** (~1 hour from Penzance, north coast near Newquay).
-  - Where **Ross gallops his horse** in the Poldark opening credits.
-  - Sweeping sandy beach, massive dunes, caves at low tide.
-  - [National Trust - Holywell Bay](https://www.nationaltrust.org.uk/visit/cornwall/holywell-bay)
-  - Free entry. NT car park ~£5-7. Allow 1.5-2 hours.
+- **Check out** of London hotel.
+- **Fly London → Edinburgh:**
+  - **EasyJet** from Gatwick/Luton (~£25-60pp) or **BA** from Heathrow (~£50-120pp)
+  - Flight time: ~1 hour 20 minutes
+  - Aim for a **late morning flight** (10-11am) — no need to rush after the late theatre night
+  - Edinburgh Airport → city center: **Airlink 100 bus** (~£5.50pp, 25 min) or tram (~£7pp, 35 min)
+- **Alternative:** LNER train King's Cross → Edinburgh Waverley (~4.5 hours, advance fares from ~£30pp). Arrives right in the city center.
 
-#### Late Morning / Lunch
-- **Drive to Padstow** (~30 min from Holywell Bay).
-  - **Rick Stein's Cafe** — casual, great fish. [rickstein.com](https://www.rickstein.com/restaurants/the-cafe/)
-  - **Chough Bakery** — award-winning Cornish pasties.
-  - Browse Padstow's harbor and shops.
+#### Afternoon
+- **Check in** to Edinburgh hotel.
+- **Royal Mile walk** (free, 1-2 hours):
+  - Walk from **Edinburgh Castle** down to the **Palace of Holyroodhouse**
+  - Pass **St Giles' Cathedral**, hidden closes (alleyways), the Scottish Parliament
+  - Pop into **Greyfriars Kirkyard** — the famous graveyard (and yes, a Harry Potter connection)
 
-#### Afternoon — Choose Your Adventure
-- **Option 1: St Ives** (~45 min from Padstow)
-  - Beautiful harbor town, narrow lanes.
-  - **Tate St Ives** — gallery overlooking Porthmeor Beach. [tate.org.uk](https://www.tate.org.uk/visit/tate-st-ives)
-  - **Barbara Hepworth Museum** — [tate.org.uk](https://www.tate.org.uk/visit/tate-st-ives/barbara-hepworth-museum-and-sculpture-garden)
-  - Get a cream tea. **Cornwall rule: cream first, then jam.**
+#### Late Afternoon
+- **Calton Hill** (free, 30 min) — short climb for panoramic views of the city, Arthur's Seat, and the Firth of Forth. Beautiful in the late afternoon light.
+- Or **Scottish National Museum** (free) on Chambers Street — excellent Scottish history exhibits.
 
-- **Option 2: Porthcurno & Minack Theatre**
-  - Stunning turquoise cove + open-air theatre carved into cliffs.
-  - [minack.com](https://www.minack.com/) — even without a show, the venue (£8pp) is jaw-dropping.
+#### Evening
+- **Dinner in Grassmarket** — the historic square below the castle, lined with pubs and restaurants.
+  - **The Last Drop** — atmospheric pub with castle views
+  - **Mums Great Comfort Food** — hearty Scottish classics (haggis, neeps & tatties)
+- Or a **ghost tour** of Edinburgh's underground vaults (~£15-20pp). Mercat Tours or similar. Edinburgh is famous for these.
 
-- **Option 3: Relaxed day** — return to Penzance via the coast road, stop at Mousehole (prettiest fishing village in Cornwall).
+---
 
-#### Evening — Last Cornish Supper
-- **The Gurnard's Head** — gastropub between St Ives and St Just. [gurnardshead.co.uk](https://www.gurnardshead.co.uk/)
-- Or **Harris's Restaurant** — classic Penzance seafood. [harrissrestaurant.co.uk](https://www.harrissrestaurant.co.uk/)
-- Or a classic **fish and chips on the Penzance seafront** — sometimes simple is perfect.
+### Day 7 — Friday, May 29: OUTLANDER DAY 🏴󠁧󠁢󠁳󠁣󠁴󠁿
+
+**Theme:** Elizabeth's dream day. Castle Leoch, Lallybroch, Cranesmuir, and the world of Outlander brought to life.
+
+#### Option A: Guided Outlander Day Tour (recommended)
+
+Small-group or private tours depart Edinburgh ~8:30-9:00 AM and return by ~5:30-6:00 PM.
+
+**Tour operators:**
+| Operator | Price | Group Size | Notes |
+|----------|-------|------------|-------|
+| [Rabbie's Tours](https://www.rabbies.com/en-us/tour/outlander-day-tour-from-edinburgh) | ~£65-85pp (~$82-107) | Max 16 | Award-winning. Departs St Andrew Square |
+| [Highland Explorer Tours](https://highlandexplorertours.com/1-day-tours/outlander-explorer) | ~£79pp (~$100) | Small group | Includes castle admissions |
+| [Viator options](https://www.viator.com/searchResults/all?text=outlander+edinburgh) | ~£50-95pp (~$63-120) | Varies | Multiple operators, read reviews |
+| Private tour | ~£400-600 total (~$504-756) | Just your group | Fully customizable pace and route |
+
+**Typical tour stops:**
+
+1. **Midhope Castle** (Lallybroch — Jamie's family home)
+   - On the Hopetoun Estate, ~30 min from Edinburgh
+   - Exterior access only (interior is derelict)
+   - ~£7.50pp entry
+
+2. **Blackness Castle** (Fort William — where Jamie was lashed by Black Jack Randall)
+   - 15th-century ship-shaped fortress on the shore, ~35 min from Edinburgh
+   - ~£6-8.50pp entry
+   - Historic Environment Scotland
+
+3. **Culross** (Cranesmuir village — Geillis Duncan's home)
+   - Beautifully preserved 16th-century village, ~50 min from Edinburgh
+   - Culross Palace garden = Claire's herb garden at Castle Leoch
+   - The Study building = Geillis Duncan's house
+   - Village streets are free to explore; Palace entry ~£10pp
+   - Pronounced "COO-riss"
+
+4. **Falkland** (1940s Inverness — opening scenes of the series)
+   - The village that doubles for Inverness in the 1940s scenes
+   - Bruce Fountain = where Frank sees Jamie's ghost
+   - Covenanter Hotel = Mrs Baird's B&B
+   - Village streets free; Falkland Palace ~£18pp (optional)
+
+5. **Doune Castle** (Castle Leoch — seat of Clan MacKenzie)
+   - The castle where Claire is first taken after falling through the stones
+   - Audio guide narrated by **Sam Heughan** discussing Outlander filming
+   - ~£10pp entry. Allow 1-1.5 hours.
+   - Also famous for Monty Python and the Holy Grail!
+
+#### Option B: DIY Driving Route (need a rental car)
+
+Rent from Edinburgh Airport or city center (~£40-60/day). **Remember: drive on the left!**
+
+**Suggested loop (clockwise):**
+1. Edinburgh → **Midhope Castle / Hopetoun House** (25 min) — start 9am
+2. Hopetoun → **Blackness Castle** (10 min)
+3. Blackness → **Culross** (30 min) — walk the village, see the palace garden
+4. Culross → **Falkland** (40 min) — walk the village, lunch
+5. Falkland → **Doune Castle** (40 min) — the grand finale
+6. Doune Castle → **Edinburgh** (1 hour) — back by ~5-6pm
+
+Total driving: ~3.5 hours. Total visit time: ~5-6 hours.
+
+#### Evening — Celebrate!
+- **Dinner on the Royal Mile or in New Town:**
+  - **The Witchery by the Castle** — dramatic Gothic dining at the castle gates (splurge-worthy)
+  - **Ondine** — excellent Scottish seafood
+  - **Whiski Bar & Restaurant** — Scottish cuisine + 400+ whiskies on the Royal Mile
+- Or keep it simple at a cozy Edinburgh pub — haggis, a dram of whisky, and stories from the day.
+
+---
+
+### Day 8 — Saturday, May 30: Edinburgh at Leisure 🏰
+
+**Theme:** A free day to explore Edinburgh at your own pace. No rushing, no castles to tick off — just enjoy.
+
+#### Morning — Choose Your Adventure
+
+- **Edinburgh Castle** (allow 1.5-2 hours)
+  - [edinburghcastle.scot](https://www.edinburghcastle.scot/) — adults ~£21.50 online
+  - Scotland's crown jewels, Mons Meg cannon, panoramic city views
+  - Book online in advance — it gets busy
+
+- **Arthur's Seat** (free, 1.5-2 hours)
+  - The ancient volcano in Holyrood Park
+  - A moderate hike with spectacular 360-degree views
+  - Start from the Palace of Holyroodhouse end
+
+- **Scotch Whisky Experience** (~£18-30pp, 1 hour)
+  - [scotchwhiskyexperience.co.uk](https://www.scotchwhiskyexperience.co.uk/)
+  - On the Royal Mile, near the castle. Barrel ride tour + tasting.
+
+#### Afternoon
+- **Dean Village** — a hidden gem, a picturesque village within the city. 15-min walk from Princes Street along the Water of Leith.
+- **Scottish National Gallery** (free) on the Mound — great collection in a beautiful building.
+- **Princes Street Gardens** — relax in the park below the castle.
+- **Shopping on Victoria Street** — the colorful curved street that inspired Diagon Alley.
+
+#### Evening — Last Night Celebration
+- **Pre-dinner drinks** at a rooftop bar with castle views.
+- **Farewell dinner:**
+  - **Timberyard** — award-winning Scottish seasonal cooking in a converted warehouse
+  - **The Dogs** — unpretentious, excellent value, New Town
+  - Or a classic pub dinner at **The Bow Bar** (Grassmarket) — real ales, good vibes.
+- Pack up — heading home tomorrow.
 
 ---
 
 ### Day 9 — Sunday, May 31: Departure Day 🏠
 
-**Theme:** Gentle morning, then head home.
+**Theme:** Gentle morning, then fly home.
 
-#### Option A: Return to London, Fly Home
-- **Morning:** Leisurely Penzance breakfast. Final promenade walk.
-- **Train to London Paddington:** ~5h 15m. Depart ~9:00 AM (arrive ~2:15 PM).
-  - Book on [GWR](https://www.gwr.com/).
-  - Paddington is the Heathrow Express terminus — very convenient!
-- Afternoon/evening flight home from Heathrow.
+#### Morning
+- **Leisurely Edinburgh breakfast** — last chance for a Scottish fry-up or pastries.
+- **Last stroll:**
+  - Walk down the Royal Mile one more time
+  - Pop into **St Giles' Cathedral** if you missed it
+  - Pick up any last souvenirs (Edinburgh wool, whisky, shortbread)
 
-#### Option B: Fly from Newquay Airport
-- [Newquay Cornwall Airport](https://www.cornwallairportnewquay.com/) — limited flights but saves the 5-hour train.
-- Drive to Newquay from Penzance: ~1 hour.
+#### Getting to the Airport
+- **Edinburgh Airport** is ~8 miles west of the city center
+- **Airlink 100 bus**: ~25 min, ~£5.50pp. Runs every 10 min.
+- **Tram**: ~35 min, ~£7pp from Princes Street.
+- **Taxi**: ~20 min, ~£25-30.
+- Allow 2.5-3 hours before your flight for check-in and security.
 
-#### Option C: Extra Morning in Cornwall
-- Visit **St Michael's Mount** if missed on Day 7.
-- Walk the **Mousehole to Newlyn** coastal path (~2 miles, easy, beautiful).
-- Cream tea in **Mousehole**.
+#### Flights Home
+- **No direct Edinburgh → San Francisco flights.** Common connections:
+  - **Via London Heathrow** (BA / United) — most frequent, ~13-14 hrs total
+  - **Via Amsterdam** (KLM) — ~14-15 hrs total
+  - **Via Dublin** (Aer Lingus) — US pre-clearance in Dublin (skip immigration on arrival!)
+- Expect ~£250-500pp (~$315-630) for the one-way flight home.
 
 ---
 
@@ -327,27 +394,51 @@
 - Book at [gwr.com](https://www.gwr.com/) or [thetrainline.com](https://www.thetrainline.com/).
 
 ### Getting Around Cornwall
-- **Rent a car** — strongly recommended. ~£40-60/day from Penzance.
+- **Rent a car** — strongly recommended for Poldark day. ~£40-60/day from Penzance.
 - **Guided Poldark tour** — easiest, no driving needed.
-- **Local buses:** [First Kernow](https://www.firstbus.co.uk/cornwall), but infrequent.
+
+### London to Edinburgh
+- **Fly:** EasyJet, Ryanair, or BA. ~1h 20m. From ~£25-60pp.
+- **Train:** LNER from King's Cross. ~4h 30m. Advance fares from ~£30pp. Arrives city center.
+
+### Getting Around Edinburgh
+- The city center is very walkable. Most attractions are within 20-30 min on foot.
+- **Outlander locations** require a guided tour or rental car (all 30-60 min outside the city).
+- **Edinburgh Airport bus (Airlink 100):** ~25 min, ~£5.50pp.
 
 ---
 
 ## Budget Estimate (4 People Total)
 
-| Item | Estimated Cost |
-|------|---------------|
-| **Flights** (4 people RT) | $1,480-$2,700 |
-| **London hotel** (5 nights, 1 room) | £600-£1,150 (~$755-$1,450) |
-| **Cornwall accommodation** (3 nights) | £240-£450 (~$300-$565) |
-| **Theatre tickets** (4x) | BOOKED ✓ |
-| **PL match tickets** (4x) | £500-£1,500 (~$630-$1,890) |
-| **Train London-Penzance** (4x return) | £336-£480 (~$425-$605) |
-| **Car rental Cornwall** (2 days) | £80-£120 (~$100-$150) |
-| **Poldark tour (optional)** | £425-£650 (~$535-$820) |
-| **Food & drink** (~£50-£75 pp/day × 9 days) | £1,800-£2,700 (~$2,270-$3,400) |
-| **Attractions & entry fees** | £200-£400 (~$250-$505) |
-| **London transport** | £65-£100 (~$80-$125) |
+| Item | Low | High | Notes |
+|------|----:|-----:|-------|
+| **Flights SFO → London** (4 ppl RT... but returning from Edinburgh) | $1,480 | $2,700 | Open-jaw ticket: SFO→LHR, EDI→SFO |
+| **London hotel** (3 nights, 1 room) | $295 | $715 | 2 nights + 1 night on return |
+| **Cornwall hotel** (2 nights, 1 room) | $150 | $380 | YHA Penzance, Premier Inn, or B&B |
+| **Edinburgh hotel** (3 nights, 1 room) | $200 | $475 | Premier Inn, Travelodge, or aparthotel |
+| **Train London↔Cornwall** (4 ppl RT) | $400 | $640 | GWR advance fares |
+| **Flight London→Edinburgh** (4 ppl) | $125 | $380 | EasyJet / BA one-way |
+| **Theatre tickets** (4) | -- | -- | BOOKED ✓ |
+| **PL match tickets** (4) | $640 | $1,900 | Crystal Palace vs Arsenal via resellers |
+| **Outlander day tour** (4 ppl) | $250 | $480 | Group tour; private ~$500-750 |
+| **Poldark tour or car rental** | $50 | $820 | DIY ~$50-75 (car rental); guided ~$550-820 |
+| **Food & misc** (~$60-90/day × 9 days) | $540 | $810 | Meals, coffee, transport, snacks for 4 |
+| **Attractions & entry fees** | $200 | $450 | Edinburgh Castle, museums, etc. |
+| **TOTAL** | **$4,330** | **$9,750** | |
+
+### Budget-Optimized Estimate (~$5,500-7,000)
+- Open-jaw flights (SFO→LHR, EDI→SFO) at ~$550/person = $2,200
+- Premier Inn London (3 nights) = $450
+- Budget Cornwall (2 nights) = $200
+- Premier Inn Edinburgh (3 nights) = $300
+- Train advance fares (Cornwall RT) = $450
+- EasyJet London→Edinburgh = $150
+- Theatre tickets = BOOKED ✓
+- PL match at ~$200/ticket via reseller = $800
+- Outlander group tour (4 ppl) = $350
+- Skip guided Poldark tour, self-explore = $50 (car rental)
+- Food at $60/day × 9 = $540
+- **Total: ~$5,490-6,690**
 
 ---
 
@@ -361,12 +452,22 @@
 | GWR Train Booking | [gwr.com](https://www.gwr.com/) |
 | Trainline | [thetrainline.com](https://www.thetrainline.com/) |
 | TfL (London transport) | [tfl.gov.uk](https://tfl.gov.uk/) |
+| Google Flights | [google.com/flights](https://www.google.com/travel/flights) |
+| **Outlander Tours** | |
+| Rabbie's Outlander Tour | [rabbies.com](https://www.rabbies.com/en-us/tour/outlander-day-tour-from-edinburgh) |
+| Highland Explorer Tours | [highlandexplorertours.com](https://highlandexplorertours.com/1-day-tours/outlander-explorer) |
+| Viator Outlander Tours | [viator.com](https://www.viator.com/searchResults/all?text=outlander+edinburgh) |
+| **Poldark Tours** | |
 | Viator Poldark Tour | [viator.com](https://www.viator.com/tours/Cornwall/Poldark-West-Cornwall-Tour/d24556-89929P1) |
 | Cornwall Tours (10% off) | [cornwalltours.uk](https://cornwalltours.uk/tour/poldark-tour-of-west-cornwall/) |
 | Brit Movie Tours | [britmovietours.com](https://britmovietours.com/bookings/poldark-tour-of-locations/) |
+| **Edinburgh** | |
+| Edinburgh Castle | [edinburghcastle.scot](https://www.edinburghcastle.scot/) |
+| VisitScotland Outlander | [visitscotland.com](https://www.visitscotland.com/things-to-do/attractions/tv-film/outlander) |
+| Historic Environment Scotland | [historicenvironment.scot](https://www.historicenvironment.scot/) |
+| Scotch Whisky Experience | [scotchwhiskyexperience.co.uk](https://www.scotchwhiskyexperience.co.uk/) |
+| **Cornwall** | |
 | National Trust | [nationaltrust.org.uk](https://www.nationaltrust.org.uk/) |
-| Borough Market | [boroughmarket.org.uk](https://boroughmarket.org.uk/) |
-| Tate Modern | [tate.org.uk](https://www.tate.org.uk/visit/tate-modern) |
 | St Michael's Mount | [stmichaelsmount.co.uk](https://www.stmichaelsmount.co.uk/) |
 | Minack Theatre | [minack.com](https://www.minack.com/) |
 | Jubilee Pool Penzance | [jubileepool.co.uk](https://www.jubileepool.co.uk/) |
@@ -376,9 +477,11 @@
 
 ## Notes & Tips
 
-1. **PL tickets are the next priority** — Crystal Palace vs Arsenal on the final day will be in demand. Book via resellers soon.
-2. **Book train tickets ASAP** for Thursday May 28 — advance fares are cheapest booked early.
-3. **Consider a National Trust membership** (~£78/adult/year) — pays for itself in Cornwall.
-4. **Tide times matter** for St Michael's Mount and Holywell Bay caves. Check [tidetimes.org.uk](https://www.tidetimes.org.uk/).
-5. **Cornish cream teas:** Jam first, then cream on top. Don't let Devon tell you otherwise.
-6. **The trip tells a story:** The Premier League finale on your first full day. Exploring London all week. Aidan Turner live on stage Wednesday night. Then the wild, windswept world of Poldark in Cornwall. Unforgettable.
+1. **Open-jaw flights** (fly into London, home from Edinburgh) are often the same price or cheaper than round-trip to London. Search on Google Flights with "multi-city."
+2. **PL tickets are the next priority** — Crystal Palace vs Arsenal on the final day will be in demand.
+3. **Book Cornwall trains ASAP** — especially the early Wednesday return. Advance fares are cheapest booked early.
+4. **The Wednesday train timing is critical** — the ~7:00-7:30 AM Penzance departure arrives ~12:15-12:45 PM, giving 6+ hours before the 7pm curtain. Don't cut it closer than this.
+5. **Consider a National Trust membership** (~£78/adult/year) — useful for both Cornwall and Scotland sites.
+6. **Cornish cream teas:** Jam first, then cream on top. Don't let Devon tell you otherwise.
+7. **Edinburgh in late May** is gorgeous — long daylight (sunset ~9:30 PM!), festival season approaching, the city buzzes.
+8. **The trip tells a story:** Premier League on day 2. The wild Cornish coast and Poldark country. Aidan Turner live on stage. Then north to Scotland for Outlander's castles and Highland magic. Something for everyone.

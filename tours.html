@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tour Guides — Poldark &amp; Outlander | UK 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #1a1a2e;
+    --navy-light: #16213e;
+    --gold: #c9a96e;
+    --gold-light: #d4b87a;
+    --gold-dark: #b08d4f;
+    --cream: #f5f0e8;
+    --cream-dark: #ebe4d8;
+    --text: #2c2c3a;
+    --text-light: #6b6b7b;
+    --white: #ffffff;
+    --tartan: #8b2332;
+    --highland: #2d5a3d;
+    --cornwall-blue: #2980b9;
+    --cornwall-slate: #4a6741;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--cream);
+    color: var(--text);
+    line-height: 1.7;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Cormorant Garamond', 'Georgia', serif;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  a { color: var(--gold-dark); text-decoration: none; }
+  a:hover { color: var(--gold); text-decoration: underline; }
+
+  /* ========== HEADER ========== */
+  .page-header {
+    background: var(--navy);
+    color: var(--white);
+    text-align: center;
+    padding: 3rem 2rem 2.5rem;
+  }
+
+  .page-header h1 {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+  }
+
+  .page-header .subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 0.05em;
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--gold-light);
+    font-size: 0.85rem;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+  }
+  .back-link:hover { opacity: 1; text-decoration: none; }
+
+  /* ========== TOUR NAV ========== */
+  .tour-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+    background: var(--cream-dark);
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+  .tour-nav a {
+    display: inline-block;
+    padding: 0.6rem 1.8rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+
+  .tour-nav .nav-poldark {
+    background: var(--cornwall-slate);
+    color: var(--white);
+  }
+  .tour-nav .nav-poldark:hover {
+    background: #3d5a34;
+    text-decoration: none;
+  }
+
+  .tour-nav .nav-outlander {
+    background: var(--tartan);
+    color: var(--white);
+  }
+  .tour-nav .nav-outlander:hover {
+    background: #6b1a28;
+    text-decoration: none;
+  }
+
+  /* ========== SECTIONS ========== */
+  .tour-section {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 3rem 2rem 4rem;
+  }
+
+  .tour-section + .tour-section {
+    border-top: 1px solid rgba(0,0,0,0.08);
+  }
+
+  /* Section header banners */
+  .tour-banner {
+    text-align: center;
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    margin-bottom: 2.5rem;
+  }
+
+  .tour-banner.poldark-banner {
+    background: linear-gradient(135deg, #3a6830 0%, #4a7a3d 50%, #6b8c52 100%);
+    color: var(--white);
+  }
+
+  .tour-banner.outlander-banner {
+    background: linear-gradient(135deg, #5c1a2a 0%, #8b2332 50%, #a83a4a 100%);
+    color: var(--white);
+  }
+
+  .tour-banner h2 {
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    margin-bottom: 0.3rem;
+  }
+
+  .tour-banner .banner-sub {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 300;
+    opacity: 0.85;
+  }
+
+  .tour-banner .banner-date {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.35rem 1.2rem;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  /* Quick facts box */
+  .quick-facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    background: var(--white);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+
+  .fact {
+    text-align: center;
+  }
+
+  .fact-label {
+    display: block;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-light);
+    margin-bottom: 0.2rem;
+  }
+
+  .fact-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+
+  /* Timeline stops */
+  .stop {
+    position: relative;
+    padding-left: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .stop::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 32px;
+    bottom: -2rem;
+    width: 2px;
+    background: var(--cream-dark);
+  }
+
+  .stop:last-child::before { display: none; }
+
+  .stop-dot {
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 3px solid var(--gold);
+    background: var(--cream);
+  }
+
+  .stop-time {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--gold-dark);
+    margin-bottom: 0.15rem;
+  }
+
+  .stop h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.15rem;
+  }
+
+  .stop-show-ref {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.15rem 0.7rem;
+    border-radius: 1rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .stop-show-ref.poldark-ref {
+    background: rgba(74,122,61,0.12);
+    color: var(--cornwall-slate);
+  }
+
+  .stop-show-ref.outlander-ref {
+    background: rgba(139,35,50,0.12);
+    color: var(--tartan);
+  }
+
+  .stop p {
+    font-size: 0.92rem;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+  }
+
+  .stop-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.5rem;
+    background: var(--cream-dark);
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    margin-top: 0.8rem;
+    font-size: 0.82rem;
+  }
+
+  .stop-detail-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stop-detail-label {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-light);
+  }
+
+  .stop-detail-value {
+    font-weight: 500;
+  }
+
+  /* Scenes list */
+  .scenes {
+    margin-top: 0.6rem;
+    padding-left: 1.2rem;
+  }
+
+  .scenes li {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-bottom: 0.2rem;
+  }
+
+  /* Tips / callouts */
+  .tip {
+    background: rgba(201,169,110,0.1);
+    border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem;
+    margin: 1rem 0;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.85rem;
+  }
+
+  .tip strong { color: var(--gold-dark); }
+
+  /* Options chooser */
+  .options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+
+  .option-card {
+    background: var(--white);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .option-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  }
+
+  .option-card h4 {
+    font-size: 1.15rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .option-card p {
+    font-size: 0.85rem;
+    color: var(--text-light);
+  }
+
+  .option-card .option-meta {
+    margin-top: 0.6rem;
+    font-size: 0.78rem;
+    color: var(--gold-dark);
+    font-weight: 500;
+  }
+
+  /* Section quotes */
+  .tour-quote {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: var(--text-light);
+    padding: 2rem 1rem;
+    margin: 1rem 0 2rem;
+  }
+
+  /* Practical notes */
+  .practical-section {
+    margin-top: 2rem;
+  }
+
+  .practical-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--gold);
+  }
+
+  .practical-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .practical-card {
+    background: var(--white);
+    border-radius: 8px;
+    padding: 1.2rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  }
+
+  .practical-card h4 {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+    color: var(--text);
+  }
+
+  .practical-card p, .practical-card li {
+    font-size: 0.85rem;
+    color: var(--text-light);
+  }
+
+  .practical-card ul {
+    padding-left: 1.2rem;
+    margin-top: 0.3rem;
+  }
+
+  .practical-card li { margin-bottom: 0.2rem; }
+
+  /* Tour operators table */
+  .operators-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.85rem;
+  }
+
+  .operators-table th {
+    text-align: left;
+    padding: 0.6rem 0.8rem;
+    background: var(--navy);
+    color: var(--gold);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .operators-table td {
+    padding: 0.6rem 0.8rem;
+    border-bottom: 1px solid var(--cream-dark);
+  }
+
+  .operators-table tr:hover td {
+    background: rgba(201,169,110,0.05);
+  }
+
+  /* ========== FOOTER ========== */
+  .footer {
+    background: var(--navy);
+    color: rgba(255,255,255,0.7);
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+
+  .footer-tagline {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    font-style: italic;
+    color: var(--gold);
+    margin-bottom: 0.8rem;
+  }
+
+  .footer a {
+    color: var(--gold-light);
+  }
+
+  .footer-sub {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.35);
+    margin-top: 1.5rem;
+  }
+
+  /* ========== RESPONSIVE ========== */
+  @media (max-width: 768px) {
+    .tour-section { padding: 2rem 1.2rem 3rem; }
+    .quick-facts { grid-template-columns: repeat(2, 1fr); }
+    .options-grid { grid-template-columns: 1fr; }
+    .practical-grid { grid-template-columns: 1fr; }
+    .tour-nav { gap: 0.5rem; }
+    .tour-nav a { padding: 0.5rem 1.2rem; font-size: 0.82rem; }
+  }
+
+  /* Print styles */
+  @media print {
+    .tour-nav, .page-header .back-link { display: none; }
+    .tour-section { padding: 1rem 0; }
+    .stop { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ==================== HEADER ==================== -->
+<header class="page-header">
+  <h1>Tour Guides</h1>
+  <p class="subtitle">Poldark's Cornwall &amp; Outlander's Scotland &mdash; Follow-Along Day Itineraries</p>
+  <a href="index.html" class="back-link">&larr; Back to trip overview</a>
+</header>
+
+<!-- ==================== TOUR NAV ==================== -->
+<nav class="tour-nav">
+  <a href="#poldark" class="nav-poldark">Poldark &mdash; Cornwall</a>
+  <a href="#outlander" class="nav-outlander">Outlander &mdash; Scotland</a>
+</nav>
+
+<!-- ==================================================================================== -->
+<!--                              POLDARK TOUR                                             -->
+<!-- ==================================================================================== -->
+<section class="tour-section" id="poldark">
+
+  <div class="tour-banner poldark-banner">
+    <h2>Into Poldark Country</h2>
+    <p class="banner-sub">DIY Driving Tour of the Tin Coast</p>
+    <span class="banner-date">Tuesday, May 26</span>
+  </div>
+
+  <div class="quick-facts">
+    <div class="fact">
+      <span class="fact-label">Base</span>
+      <span class="fact-value">Penzance</span>
+    </div>
+    <div class="fact">
+      <span class="fact-label">Driving</span>
+      <span class="fact-value">~1.5 hrs</span>
+    </div>
+    <div class="fact">
+      <span class="fact-label">Walking</span>
+      <span class="fact-value">3&ndash;5 miles</span>
+    </div>
+    <div class="fact">
+      <span class="fact-label">Budget</span>
+      <span class="fact-value">~&pound;30pp + car</span>
+    </div>
+  </div>
+
+  <p class="tour-quote">"I am Ross Poldark, and this is my land."</p>
+
+  <!-- STOP 1 -->
+  <div class="stop">
+    <div class="stop-dot"></div>
+    <div class="stop-time">8:45 AM &mdash; Depart Penzance</div>
+    <h3>Drive to Botallack</h3>
+    <p>Head north on the A3071 toward St Just, then continue on the B3306 coast road toward Pendeen. The landscape opens up to wild moorland and ocean &mdash; this is Poldark country. Turn left at the National Trust sign for Botallack.</p>
+    <div class="tip"><strong>Tip:</strong> The B3306 coast road from St Just to Pendeen is one of the most dramatic roads in Cornwall.</div>
+  </div>
+
+  <!-- STOP 2 -->
+  <div class="stop">
+    <div class="stop-dot"></div>
+    <div class="stop-time">9:00 &ndash; 10:30 AM</div>
+    <h3>Botallack Mine &amp; Crown Mines</h3>
+    <span class="stop-show-ref poldark-ref">"Wheal Leisure" &mdash; Ross's mine</span>
+    <p>The iconic Poldark location. Two clifftop engine houses perched above the crashing Atlantic &mdash; the very image of the show. Walk from the car park (~15&ndash;20 min) down to the engine houses. No green screen, all real.</p>
+    <ul class="scenes">
+      <li>Exterior shots of Wheal Leisure throughout the series</li>
+      <li>Ross looking out over his mine</li>
+      <li>Miners entering the mine workings</li>
+      <li>Dramatic clifftop confrontation scenes</li>
+    </ul>
+    <div class="stop-details">
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Entry</span>
+        <span class="stop-detail-value">Free</span>
+      </div>
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Parking</span>
+        <span class="stop-detail-value">&pound;3&ndash;4 (NT)</span>
+      </div>
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Time</span>
+        <span class="stop-detail-value">1&ndash;1.5 hours</span>
+      </div>
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Shoes</span>
+        <span class="stop-detail-value">Sturdy &mdash; uneven path</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- STOP 3 -->
+  <div class="stop">
+    <div class="stop-dot"></div>
+    <div class="stop-time">10:45 AM &ndash; 12:00 PM</div>
+    <h3>Levant Mine &amp; Beam Engine</h3>
+    <span class="stop-show-ref poldark-ref">Working Victorian beam engine</span>
+    <p>Just 5 minutes up the coast. Home to the oldest working beam engine in Cornwall, which once pumped water from mine shafts deep under the seabed. Walk the South West Coast Path between Botallack and Levant (~1 mile along the cliffs) for one of the finest stretches of the entire coast path.</p>
+    <div class="stop-details">
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Entry</span>
+        <span class="stop-detail-value">~&pound;10pp</span>
+      </div>
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Opens</span>
+        <span class="stop-detail-value">10:30 AM</span>
+      </div>
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Time</span>
+        <span class="stop-detail-value">45 min &ndash; 1 hr</span>
+      </div>
+    </div>
+    <div class="tip"><strong>Coast Path option:</strong> Walk between Botallack and Levant instead of driving &mdash; about 1 mile, 25&ndash;35 minutes. Wild, windswept, Atlantic crashing below.</div>
+  </div>
+
+  <!-- STOP 4 -->
+  <div class="stop">
+    <div class="stop-dot"></div>
+    <div class="stop-time">12:00 &ndash; 1:00 PM</div>
+    <h3>Lunch near St Just</h3>
+    <p>Drive 10 minutes south to St Just for lunch. Try <strong>The Cook Book Cafe</strong> for home-cooked food, the <strong>King's Arms</strong> pub, or the <strong>Cape Cornwall Golf Club Cafe</strong> for extraordinary ocean views. Or pick up proper Cornish pasties from a bakery and eat on the cliffs.</p>
+  </div>
+
+  <!-- AFTERNOON OPTIONS -->
+  <div class="stop">
+    <div class="stop-dot"></div>
+    <div class="stop-time">1:15 PM onward</div>
+    <h3>Afternoon: Choose Your Adventure</h3>
+    <p>Pick one (or two if you're ambitious):</p>
+
+    <div class="options-grid">
+      <div class="option-card">
+        <h4>St Michael's Mount</h4>
+        <p>Fairy-tale tidal island with medieval castle and subtropical gardens. Walk the causeway at low tide or take the boat.</p>
+        <p class="option-meta">25 min drive &bull; ~&pound;18pp &bull; Check tide times!</p>
+      </div>
+      <div class="option-card">
+        <h4>Holywell Bay</h4>
+        <p>Where Ross gallops his horse in the opening credits. A vast, dramatic beach backed by enormous sand dunes.</p>
+        <p class="option-meta">1 hr drive &bull; Free &bull; The Poldark fan choice</p>
+      </div>
+      <div class="option-card">
+        <h4>Porthcurno &amp; Minack Theatre</h4>
+        <p>Stunning turquoise cove and an open-air amphitheatre carved into the cliffs overlooking the sea.</p>
+        <p class="option-meta">20 min drive &bull; ~&pound;8pp &bull; Jaw-dropping views</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- EVENING -->
+  <div class="stop">
+    <div class="stop-dot"></div>
+    <div class="stop-time">6:30 PM</div>
+    <h3>Last Cornish Supper</h3>
+    <p><strong>The Bakehouse</strong> on Chapel Street for modern British cooking, <strong>The Shore</strong> for fresh seafood with harbor views, or classic <strong>fish &amp; chips on the seafront</strong> &mdash; sometimes simple is perfect. Early night: you have a 7 AM train tomorrow!</p>
+  </div>
+
+  <!-- PRACTICAL NOTES -->
+  <div class="practical-section">
+    <h3>Practical Notes</h3>
+    <div class="practical-grid">
+      <div class="practical-card">
+        <h4>What to Bring</h4>
+        <ul>
+          <li>Waterproof jacket (essential)</li>
+          <li>Sturdy shoes with grip</li>
+          <li>Sunscreen &amp; water</li>
+          <li>Offline Google Maps downloaded</li>
+          <li>Binoculars (coastal wildlife)</li>
+        </ul>
+      </div>
+      <div class="practical-card">
+        <h4>Driving</h4>
+        <ul>
+          <li>Drive on the left, roundabouts clockwise</li>
+          <li>Narrow Cornish lanes &mdash; use passing places</li>
+          <li>Fuel up in Penzance before heading out</li>
+          <li>Car rental ~&pound;40&ndash;60/day from Penzance</li>
+        </ul>
+      </div>
+      <div class="practical-card">
+        <h4>Mobile Signal</h4>
+        <p>Signal is patchy on the Tin Coast. Download offline maps before leaving Penzance. Botallack and Levant have limited or no signal.</p>
+      </div>
+      <div class="practical-card">
+        <h4>Rain Backup</h4>
+        <ul>
+          <li><strong>Eden Project</strong> &mdash; 50 min drive, ~&pound;32pp</li>
+          <li><strong>Tate St Ives</strong> &mdash; 20 min drive, ~&pound;15pp</li>
+          <li><strong>Minack Theatre</strong> &mdash; dramatic even in rain</li>
+          <li>Botallack is worth visiting in rain &mdash; very atmospheric</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ==================================================================================== -->
+<!--                              OUTLANDER TOUR                                           -->
+<!-- ==================================================================================== -->
+<section class="tour-section" id="outlander">
+
+  <div class="tour-banner outlander-banner">
+    <h2>Into Outlander Country</h2>
+    <p class="banner-sub">Filming Locations Tour from Edinburgh</p>
+    <span class="banner-date">Friday, May 29</span>
+  </div>
+
+  <div class="quick-facts">
+    <div class="fact">
+      <span class="fact-label">Base</span>
+      <span class="fact-value">Edinburgh</span>
+    </div>
+    <div class="fact">
+      <span class="fact-label">Driving (DIY)</span>
+      <span class="fact-value">~3.5 hrs</span>
+    </div>
+    <div class="fact">
+      <span class="fact-label">Locations</span>
+      <span class="fact-value">5 key sites</span>
+    </div>
+    <div class="fact">
+      <span class="fact-label">Budget (DIY)</span>
+      <span class="fact-value">~&pound;35&ndash;45pp</span>
+    </div>
+  </div>
+
+  <p class="tour-quote">"You are my home now."</p>
+
+  <!-- GUIDED TOUR OPTION -->
+  <h3 style="font-size: 1.4rem; margin-bottom: 1rem;">Option A: Guided Tour (Recommended)</h3>
+  <p style="margin-bottom: 1rem; font-size: 0.92rem;">No driving on the left, no navigation stress, and expert narration about filming and history. Small-group tours depart ~8:30&ndash;9:00 AM and return by ~5:30&ndash;6:00 PM.</p>
+
+  <table class="operators-table">
+    <thead>
+      <tr>
+        <th>Operator</th>
+        <th>Price</th>
+        <th>Group Size</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://www.rabbies.com/en-us/tour/outlander-day-tour-from-edinburgh">Rabbie's Tours</a></td>
+        <td>~&pound;65&ndash;85pp</td>
+        <td>Max 16</td>
+        <td>Award-winning. Departs St Andrew Square</td>
+      </tr>
+      <tr>
+        <td><a href="https://highlandexplorertours.com/1-day-tours/outlander-explorer">Highland Explorer</a></td>
+        <td>~&pound;79pp</td>
+        <td>Small group</td>
+        <td>Includes castle admissions</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.viator.com/searchResults/all?text=outlander+edinburgh">Viator options</a></td>
+        <td>~&pound;50&ndash;95pp</td>
+        <td>Varies</td>
+        <td>Multiple operators, read reviews</td>
+      </tr>
+      <tr>
+        <td>Private tour</td>
+        <td>~&pound;400&ndash;600 total</td>
+        <td>Just you 4</td>
+        <td>Fully customizable &mdash; great for your group</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="tip"><strong>Tip:</strong> A private tour at ~&pound;100&ndash;150pp gives your group of 4 full control of the pace and is well worth considering. Book 2&ndash;4 weeks ahead.</div>
+
+  <h3 style="font-size: 1.4rem; margin: 2.5rem 0 1rem;">Option B: DIY Driving Route</h3>
+  <p style="margin-bottom: 1.5rem; font-size: 0.92rem;">Clockwise loop from Edinburgh: ~3.5 hours driving + 5&ndash;6 hours visiting. Car rental ~&pound;40&ndash;60/day.</p>
+
+  <!-- STOP 1 -->
+  <div class="stop">
+    <div class="stop-dot"></div>
+    <div class="stop-time">8:00 AM &mdash; Depart Edinburgh</div>
+    <h3>Drive to Midhope Castle</h3>
+    <p>Head west on the A90 toward the Forth Road Bridge. Look right for views of the iconic Forth Rail Bridge (UNESCO World Heritage Site). Enter the Hopetoun Estate gates and follow signs for Midhope Castle.</p>
+  </div>
+
+  <!-- STOP 2 -->
+  <div class="stop">
+    <div class="stop-dot"></div>
+    <div class="stop-time">8:30 &ndash; 9:30 AM</div>
+    <h3>Midhope Castle</h3>
+    <span class="stop-show-ref outlander-ref">Lallybroch &mdash; Jamie's family home</span>
+    <p>Jamie's ancestral home &mdash; the tower where he grew up, where Claire and Jamie return after their wedding. One of the most emotionally significant locations in the series. Exterior access only (interior is derelict).</p>
+    <ul class="scenes">
+      <li>The gateway and courtyard of Lallybroch (Season 1, Episode 12 onwards)</li>
+      <li>Jamie and Claire's arrival after their wedding</li>
+      <li>The "Lady Broch Tuarach" scenes with Jenny and Ian</li>
+      <li>Multiple return-to-Lallybroch scenes across seasons</li>
+    </ul>
+    <div class="stop-details">
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Entry</span>
+        <span class="stop-detail-value">~&pound;7.50pp</span>
+      </div>
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Access</span>
+        <span class="stop-detail-value">Exterior only</span>
+      </div>
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Time</span>
+        <span class="stop-detail-value">30&ndash;45 min</span>
+      </div>
+    </div>
+    <div class="tip"><strong>Photo tip:</strong> Stand at the gate looking toward the tower &mdash; this is the classic "arriving at Lallybroch" shot from the show.</div>
+  </div>
+
+  <!-- STOP 3 -->
+  <div class="stop">
+    <div class="stop-dot"></div>
+    <div class="stop-time">9:45 &ndash; 10:45 AM</div>
+    <h3>Blackness Castle</h3>
+    <span class="stop-show-ref outlander-ref">Fort William &mdash; Black Jack Randall</span>
+    <p>A dramatic 15th-century fortress shaped like a ship, jutting into the Firth of Forth. This is where Jamie was imprisoned and flogged by Black Jack Randall.</p>
+    <ul class="scenes">
+      <li>Fort William garrison &mdash; Jamie's imprisonment and flogging</li>
+      <li>The courtyard flogging scenes (Season 1)</li>
+      <li>Jamie's escape from Fort William</li>
+      <li>Various military garrison scenes</li>
+    </ul>
+    <div class="stop-details">
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Entry</span>
+        <span class="stop-detail-value">~&pound;6&ndash;8.50pp</span>
+      </div>
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Opens</span>
+        <span class="stop-detail-value">10:00 AM</span>
+      </div>
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Time</span>
+        <span class="stop-detail-value">45 min &ndash; 1 hr</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- STOP 4 -->
+  <div class="stop">
+    <div class="stop-dot"></div>
+    <div class="stop-time">11:20 AM &ndash; 12:30 PM</div>
+    <h3>Culross</h3>
+    <span class="stop-show-ref outlander-ref">Cranesmuir &mdash; Geillis Duncan's village</span>
+    <p>A beautifully preserved 16th-century village that looks almost exactly as it did 400 years ago. Perhaps the most immersive Outlander location &mdash; you genuinely feel like you've stepped back in time. Pronounced "COO-riss."</p>
+    <ul class="scenes">
+      <li><strong>Culross Palace garden</strong> = Claire's herb garden at Castle Leoch</li>
+      <li><strong>The Study</strong> (yellow building with red roof) = Geillis Duncan's house</li>
+      <li>The Mercat Cross and village streets = Cranesmuir village</li>
+      <li>The witch trial scenes</li>
+    </ul>
+    <div class="stop-details">
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Village</span>
+        <span class="stop-detail-value">Free to explore</span>
+      </div>
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Palace</span>
+        <span class="stop-detail-value">~&pound;10pp</span>
+      </div>
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Time</span>
+        <span class="stop-detail-value">~1 hour</span>
+      </div>
+    </div>
+    <div class="tip"><strong>Photo tip:</strong> Stand at the Mercat Cross looking down the cobbled street toward the Firth of Forth &mdash; the classic Cranesmuir shot.</div>
+  </div>
+
+  <!-- LUNCH -->
+  <div class="stop">
+    <div class="stop-dot"></div>
+    <div class="stop-time">12:30 &ndash; 1:30 PM</div>
+    <h3>Lunch</h3>
+    <p><strong>The Red Lion</strong> in Culross for traditional Scottish food, or carry on to Falkland for more options. Or pack sandwiches from Edinburgh and picnic with a view.</p>
+  </div>
+
+  <!-- STOP 5 -->
+  <div class="stop">
+    <div class="stop-dot"></div>
+    <div class="stop-time">2:10 &ndash; 3:00 PM</div>
+    <h3>Falkland</h3>
+    <span class="stop-show-ref outlander-ref">1940s Inverness &mdash; Where it all begins</span>
+    <p>The very first scenes of Outlander: Claire and Frank walking the streets of Inverness in 1945. This charming village doubles for the Highland capital and sets the entire story in motion.</p>
+    <ul class="scenes">
+      <li><strong>The Bruce Fountain</strong> = where Frank sees Jamie's ghost staring up at Claire's window</li>
+      <li><strong>The Covenanter Hotel</strong> = Mrs Baird's B&amp;B</li>
+      <li>Village streets = 1940s Inverness</li>
+      <li>Claire sees the Highlanders through the window</li>
+    </ul>
+    <div class="stop-details">
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Village</span>
+        <span class="stop-detail-value">Free to explore</span>
+      </div>
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Palace (optional)</span>
+        <span class="stop-detail-value">~&pound;18pp</span>
+      </div>
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Time</span>
+        <span class="stop-detail-value">45 min &ndash; 1 hr</span>
+      </div>
+    </div>
+    <div class="tip"><strong>Photo tip:</strong> Recreate the "Frank sees the ghost" moment at the Bruce Fountain.</div>
+  </div>
+
+  <!-- STOP 6 -->
+  <div class="stop">
+    <div class="stop-dot"></div>
+    <div class="stop-time">3:45 &ndash; 5:15 PM</div>
+    <h3>Doune Castle &mdash; The Grand Finale</h3>
+    <span class="stop-show-ref outlander-ref">Castle Leoch &mdash; Clan MacKenzie</span>
+    <p>Save the best for last. This is <strong>Castle Leoch</strong> &mdash; where Claire is first taken after falling through the stones, where she meets Jamie, Colum, Dougal, and Mrs Fitz. The heart of Outlander's world. The audio guide is narrated by <strong>Sam Heughan</strong> himself.</p>
+    <ul class="scenes">
+      <li><strong>The Great Hall</strong> = Castle Leoch's hall where Claire meets Colum MacKenzie</li>
+      <li><strong>The kitchen</strong> = Mrs Fitz's kitchen</li>
+      <li><strong>The courtyard</strong> = Claire's first arrival</li>
+      <li>Also famous for <em>Monty Python and the Holy Grail</em>!</li>
+    </ul>
+    <div class="stop-details">
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Entry</span>
+        <span class="stop-detail-value">~&pound;10pp</span>
+      </div>
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Audio Guide</span>
+        <span class="stop-detail-value">By Sam Heughan</span>
+      </div>
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Last Entry</span>
+        <span class="stop-detail-value">4:15 PM</span>
+      </div>
+      <div class="stop-detail-item">
+        <span class="stop-detail-label">Time</span>
+        <span class="stop-detail-value">1&ndash;1.5 hours</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- RETURN -->
+  <div class="stop">
+    <div class="stop-dot"></div>
+    <div class="stop-time">5:15 PM</div>
+    <h3>Drive Back to Edinburgh</h3>
+    <p>~1 hour via M9 and M8. Arrive by ~6:15&ndash;6:30 PM with time to freshen up before a celebratory dinner.</p>
+  </div>
+
+  <!-- EVENING -->
+  <div class="stop">
+    <div class="stop-dot"></div>
+    <div class="stop-time">7:00 PM</div>
+    <h3>Celebratory Dinner</h3>
+    <p><strong>The Witchery by the Castle</strong> for dramatic Gothic fine dining, <strong>Whiski Bar</strong> for Scottish cuisine and 400+ whiskies on the Royal Mile, or a cozy Edinburgh pub &mdash; haggis, a dram of whisky, and stories from an unforgettable day.</p>
+  </div>
+
+  <!-- PRACTICAL NOTES -->
+  <div class="practical-section">
+    <h3>Practical Notes</h3>
+    <div class="practical-grid">
+      <div class="practical-card">
+        <h4>What to Bring</h4>
+        <ul>
+          <li>Waterproof jacket</li>
+          <li>Comfortable walking shoes</li>
+          <li>Camera with charged battery</li>
+          <li>Cash (some smaller sites are cash-only)</li>
+          <li>This guide on your phone</li>
+        </ul>
+      </div>
+      <div class="practical-card">
+        <h4>Driving</h4>
+        <ul>
+          <li>Drive on the left!</li>
+          <li>Good A-roads and motorways throughout</li>
+          <li>Full tank covers the ~120-mile loop</li>
+          <li>Rush-hour traffic on M9/M8 after 4:30 PM</li>
+        </ul>
+      </div>
+      <div class="practical-card">
+        <h4>Opening Hours</h4>
+        <ul>
+          <li>Midhope: check Hopetoun Estate seasonal hours</li>
+          <li>Blackness: opens 10:00 AM</li>
+          <li>Culross Palace: opens 11:00 AM</li>
+          <li>Doune: last entry 4:15 PM</li>
+        </ul>
+      </div>
+      <div class="practical-card">
+        <h4>Entry Fees Summary</h4>
+        <p>~&pound;35&ndash;45pp for all 5 key sites (excluding optional palaces at Falkland and Culross).</p>
+        <p style="margin-top: 0.4rem;">Explorer Pass from Historic Environment Scotland covers Blackness and Doune &mdash; worth it if visiting Edinburgh Castle too.</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+  <div class="footer-tagline">"Step through the stones. Walk the Tin Coast. The adventure awaits."</div>
+  <p><a href="index.html">&larr; Back to trip overview</a></p>
+  <p class="footer-sub">London, Cornwall &amp; Edinburgh &bull; May 23&ndash;31, 2026 &bull; Elizabeth, Jessica, Kevin &amp; Grant</p>
+</footer>
+
+</body>
+</html>

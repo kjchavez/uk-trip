@@ -1,5 +1,5 @@
 # UK Trip Itinerary: London & Cornwall
-## May 23 - May 31, 2026 | Elizabeth, Jessica, Kevin & Grant
+## May 21 - May 28, 2026 | Elizabeth, Jessica, Kevin & Grant
 
 ---
 
@@ -7,55 +7,25 @@
 
 | Segment | Dates | Nights | Base |
 |---------|-------|--------|------|
-| **London** | Sat May 23 - Wed May 28 | 4 nights | South Bank / Waterloo |
-| **Cornwall** | Wed May 28 - Sat May 31 | 3 nights | Penzance area |
-| **Fly home** | Sat May 31 or Sun Jun 1 | -- | From London or Newquay |
+| **London** | Thu May 21 - Mon May 25 | 4 nights | South Bank / Waterloo |
+| **Cornwall** | Mon May 25 - Thu May 28 | 3 nights | Penzance area |
+| **Fly home** | Thu May 28 | -- | From London or Newquay |
 
 **Anchor events:**
-- **Crystal Palace vs Arsenal** — Premier League final matchday, **Sunday May 24 at 5:00 PM** at Selhurst Park
-- **Les Liaisons Dangereuses** starring Aidan Turner at the National Theatre — **Wednesday May 27 evening**
+- **Les Liaisons Dangereuses** — **Friday May 22 at 7:00 PM**, National Theatre (Lyttelton) — TICKETS BOOKED ✓
+- **Crystal Palace vs Arsenal** — Premier League final matchday, **Sunday May 24 at 5:00 PM**, Selhurst Park
 
 ---
 
-## Booking Checklist (Do These First)
+## Booking Status
 
-- [ ] **Theatre tickets:** [National Theatre - Les Liaisons Dangereuses](https://www.nationaltheatre.org.uk/productions/les-liaisons-dangereuses/) — Book Wed May 27 evening performance. Tickets from **£36/person**. 4 tickets needed.
-- [ ] **Premier League tickets:** Crystal Palace vs Arsenal, Sun May 24. Buy via [SeatPick](https://seatpick.com/crystal-palace-vs-arsenal-selhurst-park-tickets/event/377282), [LiveFootballTickets](https://www.livefootballtickets.com/fixtures/crystal-palace-v-arsenal-tickets-english-premier-league.html), or [P1 Travel](https://www.p1travel.com/en/organizer/crystal-palace). 4 tickets needed (~€159-$470+/ticket via resellers).
-- [ ] **Train to Cornwall:** [GWR Advance Tickets](https://www.gwr.com/) — London Paddington to Penzance, Wed May 28 morning. Advance singles from **£42/person**. 4 tickets each way.
-- [ ] **London hotel:** Family/quad room near Waterloo for Sat-Wed (4 nights). See hotel suggestions below.
-- [ ] **Cornwall accommodation:** Book for Wed-Sat (3 nights) in Penzance area.
-- [ ] **Poldark tour (optional):** [Viator](https://www.viator.com/tours/Cornwall/Poldark-West-Cornwall-Tour/d24556-89929P1) or [Cornwall Tours](https://cornwalltours.uk/tour/poldark-tour-of-west-cornwall/) — Private tour from ~£425-650 for up to 4-5 people.
-- [ ] **Oyster/contactless:** All 4 travelers need contactless bank cards or [Oyster cards](https://oyster.tfl.gov.uk/) for London Tube/bus.
-
----
-
-## Accommodation Suggestions
-
-### London (4 nights: May 23-27)
-
-All within walking distance of the National Theatre on the South Bank:
-
-| Hotel | Why It Works | Approx. Price/Night | Link |
-|-------|-------------|---------------------|------|
-| **Premier Inn London County Hall** | Right on the South Bank, 5 min walk to National Theatre. Family rooms available. | £120-£230 | [Book here](https://www.premierinn.com/gb/en/hotels/england/greater-london/london/london-county-hall.html) |
-| **Travelodge London Central Waterloo** | Budget-friendly, very close to Waterloo station and South Bank. | £90-£160 | [Book here](https://www.travelodge.co.uk/hotels/london-central-waterloo) |
-| **Park Plaza Westminster Bridge** | Upscale option, stunning views, steps from South Bank. Family rooms. | £200-£350 | [Book here](https://www.parkplaza.com/london-hotel-se1-7ut/gb/en) |
-| **ibis London Waterloo** | Solid budget option, walkable to everything. | £100-£150 | [Book here](https://all.accor.com/hotel/5640/index.en.shtml) |
-
-**Note for 4 people:** Most family rooms sleep 2 adults + 2 children. For 4 adults in 1 room, you may need to book a "quad" room, two interconnecting rooms, or an apartment/Airbnb. Call hotels directly to discuss 4-adult configurations.
-
-### Cornwall (3 nights: May 28-31)
-
-Based in or near Penzance for easy access to Poldark filming locations:
-
-| Accommodation | Why It Works | Approx. Price/Night | Link |
-|--------------|-------------|---------------------|------|
-| **The Artist Residence Penzance** | Boutique hotel with character, central Penzance. | £130-£200 | [Book here](https://www.artistresidence.co.uk/our-hotels/cornwall/) |
-| **YHA Penzance** | Budget option, private rooms in a gorgeous manor house. | £60-£100 | [Book here](https://www.yha.org.uk/hostel/yha-penzance) |
-| **Premier Inn Penzance** | Reliable, family rooms, free parking. | £70-£110 | [Book here](https://www.premierinn.com/gb/en/hotels/england/cornwall/penzance/penzance-a30-long-rock.html) |
-| **Airbnb** | Best bet for 4 adults — get a 2-bed flat or cottage. | £80-£150 | [Search Penzance](https://www.airbnb.co.uk/s/Penzance--Cornwall/homes?adults=4) |
-
-**Tip for 4 people:** An Airbnb or holiday cottage in Penzance is probably the best option — more space, kitchen, and no awkward bed configurations.
+- [x] **Theatre tickets** — Fri May 22 at 7:00 PM, 4 tickets ✓
+- [ ] **Premier League tickets** — Crystal Palace vs Arsenal, Sun May 24. Buy via [SeatPick](https://seatpick.com/crystal-palace-vs-arsenal-selhurst-park-tickets/event/377282), [LiveFootballTickets](https://www.livefootballtickets.com/fixtures/crystal-palace-v-arsenal-tickets-english-premier-league.html), or [P1 Travel](https://www.p1travel.com/en/organizer/crystal-palace)
+- [ ] **Flights** — Arrive Thu May 21, depart Thu May 28. [Google Flights](https://www.google.com/travel/flights)
+- [ ] **London hotel** — 4 nights (Thu May 21 - Mon May 25), family/quad room near Waterloo
+- [ ] **Cornwall accommodation** — 3 nights (Mon May 25 - Thu May 28), Penzance area
+- [ ] **Train to Cornwall** — [GWR](https://www.gwr.com/) London Paddington → Penzance, Mon May 25 morning. Advance singles from ~£42/person
+- [ ] **Poldark tour (optional)** — [Viator](https://www.viator.com/tours/Cornwall/Poldark-West-Cornwall-Tour/d24556-89929P1), [Brit Movie Tours](https://britmovietours.com/bookings/poldark-tour-of-locations/) (£650 for 1-5 people), or [Cornwall Tours](https://cornwalltours.uk/tour/poldark-tour-of-west-cornwall/) (10% off with code "2026")
 
 ---
 
@@ -63,9 +33,9 @@ Based in or near Penzance for easy access to Poldark filming locations:
 
 ---
 
-### Day 1 — Saturday, May 23: Arrival in London
+### Day 1 — Thursday, May 21: Arrival in London
 
-**Theme:** Arrive, settle in, explore the South Bank.
+**Theme:** Arrive, settle in, first taste of London.
 
 #### Morning / Early Afternoon
 - **Arrive in London** (flights to Heathrow or Gatwick).
@@ -76,73 +46,57 @@ Based in or near Penzance for easy access to Poldark filming locations:
 
 #### Afternoon
 - **South Bank stroll**: Walk east along the Thames.
-  - Pass the **London Eye** (consider riding it, ~£30pp — [book online](https://www.londoneye.com/)).
-  - Walk past the **Royal Festival Hall** and **National Theatre** (scope out Wednesday's venue).
+  - Pass the **London Eye** (~£30pp — [book online](https://www.londoneye.com/)).
+  - Walk past the **Royal Festival Hall** and **National Theatre** — scope out tomorrow's venue!
   - Browse the **South Bank Book Market** under Waterloo Bridge.
-  - **Tate Modern** (free entry) — [tate.org.uk](https://www.tate.org.uk/visit/tate-modern). Views from the top floor are excellent.
+  - **Tate Modern** (free entry) — [tate.org.uk](https://www.tate.org.uk/visit/tate-modern)
 
 #### Evening
 - **Dinner at Wahaca Southbank** — Mexican street food on the river. [wahaca.co.uk](https://www.wahaca.co.uk/)
-- Or **The Anchor & Hope** (gastropub, The Cut, Waterloo) — excellent British food, no reservations.
-- Early night to recover from travel.
+- Or **The Anchor & Hope** (gastropub, The Cut, Waterloo) — excellent British food.
+- Early-ish night — tomorrow is show night!
 
 ---
 
-### Day 2 — Sunday, May 24: PREMIER LEAGUE MATCH DAY
+### Day 2 — Friday, May 22: THE PLAY — Les Liaisons Dangereuses
 
-**Theme:** The beautiful game. Crystal Palace vs Arsenal, Selhurst Park, 5:00 PM kickoff.
+**Theme:** Relaxed day building up to the main event.
 
 #### Morning
-- **Lazy morning** — sleep in after the long flight.
-- **Brunch near the hotel:** Find a Full English Breakfast near Waterloo — the classic UK experience.
+- **Borough Market** (open Wed-Sat) — 10 min walk from hotel.
+  [boroughmarket.org.uk](https://boroughmarket.org.uk/)
+  - Wander the stalls, sample British cheeses, pastries, and fresh food.
+  - Great brunch from the stalls by Southwark Cathedral.
 
-#### Early Afternoon
-- **Explore before the match:**
-  - Walk across **Westminster Bridge** — see Big Ben and the Houses of Parliament.
-  - Stroll through **St James's Park** (beautiful in late May).
-  - See **Buckingham Palace** from outside.
+#### Afternoon
+- **Cross the Millennium Bridge** to **St Paul's Cathedral** (entry ~£23pp, or admire from outside). [stpauls.co.uk](https://www.stpauls.co.uk/)
+- Walk past the **Globe Theatre** — [shakespearesglobe.com](https://www.shakespearesglobe.com/)
+- **Head back to the hotel** to rest and freshen up — tonight is special.
 
-#### Getting to Selhurst Park
-- **Leave by 3:00-3:30 PM** to arrive with time to soak in the pre-match atmosphere.
-- **Route:** Train from London Bridge, Victoria, or Clapham Junction to **Selhurst** or **Norwood Junction** station (~20-30 min). Or Overground to Norwood Junction.
-- **Alternative:** Take the Tube to Victoria, then Southern Rail to Selhurst.
-- [Crystal Palace getting there guide](https://www.cpfc.co.uk/club/getting-to-selhurst-park/)
+#### Evening — THE PLAY 🎭
+- **5:00-5:30 PM:** Pre-theatre dinner.
+  - **House Restaurant at the National Theatre** — right in the building. [nationaltheatre.org.uk/eat-and-drink](https://www.nationaltheatre.org.uk/your-visit/eat-and-drink)
+  - Or **Tas Restaurant** (The Cut, Waterloo) — affordable Turkish/Mediterranean, popular pre-theatre. [tasrestaurants.co.uk](https://www.tasrestaurants.co.uk/)
 
-#### Pre-Match (3:30-5:00 PM)
-- **Pubs near Selhurst Park:**
-  - **The Pawsons Arms** — traditional matchday pub on Whitehorse Lane
-  - **The Cherry Trees** — right near the ground
-  - Grab a beer, soak in the atmosphere of the final day of the PL season
-- The final day of the season is electric — all 10 matches kick off simultaneously at 5:00 PM, and everything can change
+- **7:00 PM:** **Les Liaisons Dangereuses** at the **National Theatre (Lyttelton Theatre)**
+  - Starring **Aidan Turner** and **Lesley Manville**
+  - Directed by **Marianne Elliott**
+  - This is a captioned performance — live subtitles displayed on a screen beside the stage
+  - **Tip:** Arrive 30 min early for drinks at the NT bar. The brutalist terraces overlooking the Thames are iconic.
 
-#### The Match: Crystal Palace vs Arsenal — 5:00 PM
-- **Selhurst Park**, Whitehorse Lane, London SE25
-- One of the most atmospheric grounds in English football
-- The Ted Lasso connection: Selhurst Park was a major inspiration for the show
-- **Tips:**
-  - No bags larger than A4 size allowed
-  - Contactless payments for food/drink inside
-  - The atmosphere on the final day is unforgettable — savour every minute
-
-#### After the Match (~7:00 PM)
-- **Dinner near the ground or back in central London:**
-  - Head back to South Bank and eat at **Skylon Restaurant** (Royal Festival Hall, river views) — [skylon-restaurant.co.uk](https://www.skylon-restaurant.co.uk/)
-  - Or grab fish & chips near the hotel
-- Relive the match over drinks on the South Bank
+- **After the show:** Drinks on the South Bank. The NT bar stays open after performances. Walk along the river — London at night from the South Bank is unforgettable.
 
 ---
 
-### Day 3 — Monday, May 25 (Bank Holiday): Classic London Sightseeing
+### Day 3 — Saturday, May 23: Classic London Sightseeing
 
-**Theme:** Big London landmarks, period drama thread for the Poldark fans.
-
-*Note: Monday May 25 is a UK Spring Bank Holiday — some attractions may have different hours. Most major sites are open.*
+**Theme:** Big London landmarks, period drama connections, and the city at its best.
 
 #### Morning
 - **Westminster walk**: Cross Westminster Bridge from South Bank.
   - See **Big Ben / Houses of Parliament** up close.
-  - Walk through **St James's Park**.
-  - **Buckingham Palace** — the Changing of the Guard may run on Bank Holiday Monday (verify at [householddivision.org.uk](https://changing-guard.com/dates-buckingham-palace.html)).
+  - Walk through **St James's Park** (gorgeous in late May).
+  - **Buckingham Palace** — Changing of the Guard usually runs on Saturdays in summer (verify at [changing-guard.com](https://changing-guard.com/dates-buckingham-palace.html)).
 
 #### Late Morning
 - **Churchill War Rooms** (optional, ~£28pp) — [iwm.org.uk](https://www.iwm.org.uk/visits/churchill-war-rooms). Fascinating underground WWII bunker.
@@ -156,69 +110,60 @@ Based in or near Penzance for easy access to Poldark filming locations:
 - **Alternative:** Visit the **V&A Museum** (free, South Kensington) — 18th-century costume galleries perfect for Poldark fans. [vam.ac.uk](https://www.vam.ac.uk/)
 
 #### Evening
-- **Pre-theatre area dinner:**
-  - **Tas Restaurant** (The Cut, Waterloo) — affordable Turkish/Mediterranean, popular pre-theatre spot. [tasrestaurants.co.uk](https://www.tasrestaurants.co.uk/)
-- Evening walk along the Thames at dusk.
+- **Dinner in Soho or South Bank** — explore and find something that catches your eye.
+- Or **Skylon Restaurant** at the Royal Festival Hall — modern British, river views. [skylon-restaurant.co.uk](https://www.skylon-restaurant.co.uk/)
 
 ---
 
-### Day 4 — Tuesday, May 26: Markets, Museums & Exploration
+### Day 4 — Sunday, May 24: PREMIER LEAGUE MATCH DAY ⚽
 
-**Theme:** Relaxed day, food markets, more London.
+**Theme:** The beautiful game. Crystal Palace vs Arsenal, Selhurst Park, 5:00 PM kickoff. Final day of the Premier League season.
 
 #### Morning
-- **Borough Market** (open Tue-Sat) — 10 min walk from hotel.
-  [boroughmarket.org.uk](https://boroughmarket.org.uk/)
-  - Sample British cheeses, pastries, and fresh food.
-  - Great brunch from the stalls by Southwark Cathedral.
+- **Lazy morning** — sleep in and recharge.
+- **Full English Breakfast** near the hotel — the classic UK experience.
 
-#### Afternoon
-- **Cross the Millennium Bridge** to **St Paul's Cathedral** (entry ~£23pp, or admire from outside). [stpauls.co.uk](https://www.stpauls.co.uk/)
-- Walk past the **Globe Theatre** — [shakespearesglobe.com](https://www.shakespearesglobe.com/)
-- **British Museum** (free) — one of the world's greatest museums. [britishmuseum.org](https://www.britishmuseum.org/)
-- Or go shopping: **Covent Garden**, **Oxford Street**, **Camden Market**
+#### Early Afternoon
+- **Free time** — last London shopping, revisit a favourite spot, or explore somewhere new:
+  - **Camden Market** (vibrant, eclectic — Tube to Camden Town)
+  - **Covent Garden** (street performers, shops, restaurants)
+  - **British Museum** (free) — [britishmuseum.org](https://www.britishmuseum.org/)
 
-#### Evening
-- Casual dinner — explore Soho or the South Bank
-- Rest up for tomorrow's big theatre night!
+#### Getting to Selhurst Park
+- **Leave by 3:00-3:30 PM** to arrive with time to soak in the atmosphere.
+- **Route:** Train from London Bridge, Victoria, or Clapham Junction to **Selhurst** or **Norwood Junction** station (~20-30 min).
+- [Crystal Palace getting there guide](https://www.cpfc.co.uk/club/getting-to-selhurst-park/)
 
----
+#### Pre-Match (3:30-5:00 PM)
+- **Pubs near Selhurst Park:**
+  - **The Pawsons Arms** — traditional matchday pub on Whitehorse Lane
+  - **The Cherry Trees** — right near the ground
+  - Grab a beer, soak in the atmosphere of the final day of the PL season
+- All 10 PL matches kick off simultaneously at 5:00 PM — electric energy across the country
 
-### Day 5 — Wednesday, May 27: THE PLAY — Les Liaisons Dangereuses
+#### The Match: Crystal Palace vs Arsenal — 5:00 PM ⚽
+- **Selhurst Park**, Whitehorse Lane, London SE25
+- One of the most atmospheric grounds in English football
+- The Ted Lasso connection: Selhurst Park was a major inspiration for the show
+- **Tips:**
+  - No bags larger than A4 size allowed — leave backpacks at the hotel
+  - Contactless payments for food/drink inside
+  - The atmosphere on the final day is unforgettable
 
-**Theme:** The main event. Aidan Turner on stage.
-
-#### Morning
-- **Relaxed morning.** Sleep in or revisit Borough Market for breakfast.
-
-#### Afternoon
-- **Free museum time** or last London shopping.
-- **Rest and freshen up at the hotel** — tonight is special!
-- **For Poldark fans:** Walk past the **Globe Theatre** (by the Millennium Bridge). The theatrical world connects to what's coming tonight.
-
-#### Evening — THE PLAY
-- **5:30 PM:** Pre-theatre dinner.
-  - **House Restaurant at the National Theatre** — right in the building. [nationaltheatre.org.uk/eat-and-drink](https://www.nationaltheatre.org.uk/your-visit/eat-and-drink)
-  - Or grab something at one of the South Bank food stalls.
-
-- **7:00 PM (or 7:30 PM):** **Les Liaisons Dangereuses** at the **National Theatre (Lyttelton Theatre)**
-  - Starring **Aidan Turner** and **Lesley Manville**
-  - Directed by **Marianne Elliott**
-  - 18th-century aristocratic scheming, seduction, gorgeous costumes
-  - **Tip:** Arrive 30 min early for drinks at the NT bar. The brutalist terraces overlooking the Thames are iconic.
-  - Check [nationaltheatre.org.uk](https://www.nationaltheatre.org.uk/) for exact curtain time.
-
-- **After the show:** Drinks on the South Bank. The NT bar stays open after performances. London at night from the South Bank is unforgettable.
+#### After the Match (~7:00 PM)
+- Head back to central London.
+- **Celebratory dinner** — whatever the result, you just experienced the Premier League live.
+- Pack for Cornwall — the train leaves tomorrow morning!
 
 ---
 
-### Day 6 — Thursday, May 28: London to Cornwall by Train
+### Day 5 — Monday, May 25 (Bank Holiday): London to Cornwall by Train 🚂
 
-**Theme:** Travel day — but make it scenic.
+**Theme:** Travel day — but make it scenic. It's a UK Bank Holiday so enjoy the relaxed vibe.
 
 #### Morning
 - **Early checkout** from London hotel.
-- Grab breakfast near the hotel or pick up pastries for the train.
+- Grab breakfast or pick up pastries/coffee for the train.
 - **Get to London Paddington station:**
   - From Waterloo: Bakerloo Line to Paddington (~15 min).
   - Arrive 20-30 min before departure.
@@ -227,26 +172,27 @@ Based in or near Penzance for easy access to Poldark filming locations:
 - **GWR London Paddington → Penzance**
   - Journey: ~5 hours 15-30 minutes
   - Recommended departure: **~9:00 AM or 10:00 AM** (arrives ~2:15-3:30 PM)
-  - The stretch after Exeter is spectacular — the train runs along the sea wall at Dawlish. **Sit on the left side** for sea views.
-  - [Book advance tickets on GWR](https://www.gwr.com/) — advance singles from **~£42/person**
+  - The stretch after Exeter is spectacular — the train runs along the sea wall at Dawlish. **Sit on the left side** (facing forward) for sea views.
+  - [Book advance tickets on GWR](https://www.gwr.com/) — advance singles from ~£42/person
+  - **Note:** Bank Holiday Monday — trains may be busier, book in advance!
   - **Tip:** Book a table seat. Bring snacks. The GWR buffet car sells drinks and sandwiches.
 
 #### Afternoon
 - **Arrive in Penzance** around 2:30-3:30 PM.
 - **Check in** to accommodation.
 - **Explore Penzance on foot:**
-  - Walk along the **Penzance Promenade** with views to St Michael's Mount.
-  - Wander **Chapel Street** — antique shops, pubs, character.
-  - **Jubilee Pool** — Art Deco seawater lido. Swim if it's warm! [jubileepool.co.uk](https://www.jubileepool.co.uk/)
+  - Walk along the **Penzance Promenade** with views across Mount's Bay to St Michael's Mount.
+  - Wander **Chapel Street** — the old town's main street, antique shops, pubs.
+  - **Jubilee Pool** — stunning Art Deco seawater lido on the seafront. [jubileepool.co.uk](https://www.jubileepool.co.uk/)
 
 #### Evening
-- **Dinner at The Shore** — seafood, harbor views. [theshorepenzance.co.uk](https://www.theshorepenzance.co.uk/)
+- **Dinner at The Shore** — fresh seafood, harbor views. [theshorepenzance.co.uk](https://www.theshorepenzance.co.uk/)
 - Or **The Turk's Head** — Penzance's oldest pub (since 1233!). Chapel Street.
 - Or **Mackerel Sky Seafood Bar** — tiny, brilliant, seasonal Cornish seafood.
 
 ---
 
-### Day 7 — Friday, May 29: Poldark Day — Botallack & The Tin Coast
+### Day 6 — Tuesday, May 26: Poldark Day — Botallack & The Tin Coast ⛏️
 
 **Theme:** Windswept cliffs, dramatic mines, and Poldark magic.
 
@@ -270,7 +216,7 @@ Based in or near Penzance for easy access to Poldark filming locations:
   - [National Trust - Levant Mine](https://www.nationaltrust.org.uk/visit/cornwall/levant-mine-and-beam-engine)
   - Entry ~£10pp. Allow 45 min - 1 hour.
 
-- **Walk the South West Coast Path** between Botallack and Levant (~1 mile along the cliffs).
+- **Walk the South West Coast Path** between Botallack and Levant (~1 mile along the cliffs). Wild, beautiful, and exactly what the Poldark fans picture.
 
 ##### Afternoon
 - **Wheal Coates at Chapel Porth** (St Agnes, ~40 min from Botallack) — another dramatic clifftop mine ruin from Poldark.
@@ -282,8 +228,8 @@ Based in or near Penzance for easy access to Poldark filming locations:
   - Or bring a picnic and eat on the cliffs.
 
 ##### Late Afternoon
-- **St Michael's Mount** (tidal island with castle, Marazion, 10 min from Penzance).
-  - [stmichaelsmount.co.uk](https://www.stmichaelsmount.co.uk/) — entry ~£18pp. Check tide times!
+- **St Michael's Mount** — tidal island with castle, at Marazion (10 min from Penzance).
+  - [stmichaelsmount.co.uk](https://www.stmichaelsmount.co.uk/) — entry ~£18pp. Check tide times at [tidetimes.org.uk](https://www.tidetimes.org.uk/)!
 
 #### Evening
 - **The Bakehouse** — excellent restaurant on Chapel Street, Penzance. [bakehouserestaurant.co.uk](https://www.bakehouserestaurant.co.uk/)
@@ -291,7 +237,7 @@ Based in or near Penzance for easy access to Poldark filming locations:
 
 ---
 
-### Day 8 — Saturday, May 30: Holywell Bay & North Coast
+### Day 7 — Wednesday, May 27: Holywell Bay & North Coast 🏖️
 
 **Theme:** Beach, dunes, and the wilder side of Cornwall.
 
@@ -310,22 +256,25 @@ Based in or near Penzance for easy access to Poldark filming locations:
 
 #### Afternoon — Choose Your Adventure
 - **Option 1: St Ives** (~45 min from Padstow)
+  - Beautiful harbor town, narrow lanes.
   - **Tate St Ives** — gallery overlooking Porthmeor Beach. [tate.org.uk](https://www.tate.org.uk/visit/tate-st-ives)
+  - **Barbara Hepworth Museum** — [tate.org.uk](https://www.tate.org.uk/visit/tate-st-ives/barbara-hepworth-museum-and-sculpture-garden)
   - Get a cream tea. **Cornwall rule: cream first, then jam.**
 
 - **Option 2: Porthcurno & Minack Theatre**
   - Stunning turquoise cove + open-air theatre carved into cliffs.
   - [minack.com](https://www.minack.com/) — even without a show, the venue (£8pp) is jaw-dropping.
 
-- **Option 3: Relaxed day** — return to Penzance, explore Mousehole (prettiest fishing village in Cornwall).
+- **Option 3: Relaxed day** — return to Penzance via the coast road, stop at Mousehole (prettiest fishing village in Cornwall).
 
 #### Evening — Last Cornish Supper
 - **The Gurnard's Head** — gastropub between St Ives and St Just. [gurnardshead.co.uk](https://www.gurnardshead.co.uk/)
 - Or **Harris's Restaurant** — classic Penzance seafood. [harrissrestaurant.co.uk](https://www.harrissrestaurant.co.uk/)
+- Or a classic **fish and chips on the Penzance seafront** — sometimes simple is perfect.
 
 ---
 
-### Day 9 — Sunday, May 31: Departure Day
+### Day 8 — Thursday, May 28: Departure Day 🏠
 
 **Theme:** Gentle morning, then head home.
 
@@ -341,24 +290,25 @@ Based in or near Penzance for easy access to Poldark filming locations:
 - Drive to Newquay from Penzance: ~1 hour.
 
 #### Option C: Extra Morning in Cornwall
-- Visit **St Michael's Mount** if missed, or walk the **Mousehole to Newlyn** coastal path (~2 miles).
+- Visit **St Michael's Mount** if missed on Day 6.
+- Walk the **Mousehole to Newlyn** coastal path (~2 miles, easy, beautiful).
+- Cream tea in **Mousehole**.
 
 ---
 
 ## Transport Summary
 
 ### Getting Around London
-- **Contactless bank card or Oyster** for Tube, bus, rail. Daily cap ~£8.10 (Zones 1-2).
-- [TfL info](https://tfl.gov.uk/)
+- **Contactless bank card** for Tube, bus, and rail. Daily cap ~£8.10 (Zones 1-2). [tfl.gov.uk](https://tfl.gov.uk/)
 - For **Selhurst Park**: Train from London Bridge/Victoria to Selhurst or Norwood Junction (~25 min).
 
 ### London to Penzance
-- **GWR** from London Paddington. ~5h 15m. Advance tickets from **~£42/person**.
+- **GWR** from London Paddington. ~5h 15m. Advance tickets from ~£42/person.
 - Book at [gwr.com](https://www.gwr.com/) or [thetrainline.com](https://www.thetrainline.com/).
 
 ### Getting Around Cornwall
-- **Rent a car** — strongly recommended for Poldark locations. ~£40-60/day.
-- **Poldark guided tour** — easiest, no driving needed.
+- **Rent a car** — strongly recommended. ~£40-60/day from Penzance.
+- **Guided Poldark tour** — easiest, no driving needed.
 - **Local buses:** [First Kernow](https://www.firstbus.co.uk/cornwall), but infrequent.
 
 ---
@@ -370,7 +320,7 @@ Based in or near Penzance for easy access to Poldark filming locations:
 | **Flights** (4 people RT) | $1,480-$2,700 |
 | **London hotel** (4 nights, 1 room) | £480-£920 (~$600-$1,160) |
 | **Cornwall accommodation** (3 nights) | £240-£450 (~$300-$565) |
-| **Theatre tickets** (4x) | £144-£340 (~$180-$430) |
+| **Theatre tickets** (4x) | BOOKED ✓ |
 | **PL match tickets** (4x) | £500-£1,500 (~$630-$1,890) |
 | **Train London-Penzance** (4x return) | £336-£480 (~$425-$605) |
 | **Car rental Cornwall** (2 days) | £80-£120 (~$100-$150) |
@@ -378,9 +328,6 @@ Based in or near Penzance for easy access to Poldark filming locations:
 | **Food & drink** (~£50-£75 pp/day × 8 days) | £1,600-£2,400 (~$2,015-$3,025) |
 | **Attractions & entry fees** | £200-£400 (~$250-$505) |
 | **London transport** | £65-£100 (~$80-$125) |
-| | |
-| **TOTAL (excl. flights, excl. PL & Poldark tour)** | **~$3,475-$5,960** |
-| **TOTAL (incl. everything)** | **~$6,600-$11,475** |
 
 ---
 
@@ -396,6 +343,7 @@ Based in or near Penzance for easy access to Poldark filming locations:
 | TfL (London transport) | [tfl.gov.uk](https://tfl.gov.uk/) |
 | Viator Poldark Tour | [viator.com](https://www.viator.com/tours/Cornwall/Poldark-West-Cornwall-Tour/d24556-89929P1) |
 | Cornwall Tours (10% off) | [cornwalltours.uk](https://cornwalltours.uk/tour/poldark-tour-of-west-cornwall/) |
+| Brit Movie Tours | [britmovietours.com](https://britmovietours.com/bookings/poldark-tour-of-locations/) |
 | National Trust | [nationaltrust.org.uk](https://www.nationaltrust.org.uk/) |
 | Borough Market | [boroughmarket.org.uk](https://boroughmarket.org.uk/) |
 | Tate Modern | [tate.org.uk](https://www.tate.org.uk/visit/tate-modern) |
@@ -408,10 +356,9 @@ Based in or near Penzance for easy access to Poldark filming locations:
 
 ## Notes & Tips
 
-1. **Book theatre tickets ASAP.** Aidan Turner + National Theatre = high demand.
-2. **PL tickets:** Final day Crystal Palace vs Arsenal will be in demand. Book through resellers early.
-3. **Book train tickets 8-12 weeks ahead** for best GWR advance fares.
-4. **Consider a National Trust membership** (~£78/adult/year) — pays for itself in Cornwall.
-5. **Tide times matter** for St Michael's Mount and Holywell Bay caves. Check [tidetimes.org.uk](https://www.tidetimes.org.uk/).
-6. **Cornish cream teas:** Jam first, then cream on top. Don't let Devon tell you otherwise.
-7. **The trip tells a story:** A Premier League final day. Aidan Turner live on stage. Then the wild, windswept world of Poldark in Cornwall. Unforgettable.
+1. **PL tickets are the next priority** — Crystal Palace vs Arsenal on the final day will be in demand. Book via resellers soon.
+2. **Book train tickets ASAP** for Bank Holiday Monday May 25 — trains will be busy.
+3. **Consider a National Trust membership** (~£78/adult/year) — pays for itself in Cornwall.
+4. **Tide times matter** for St Michael's Mount and Holywell Bay caves. Check [tidetimes.org.uk](https://www.tidetimes.org.uk/).
+5. **Cornish cream teas:** Jam first, then cream on top. Don't let Devon tell you otherwise.
+6. **The trip tells a story:** Aidan Turner live on stage Friday night. The Premier League finale on Sunday. Then the wild, windswept world of Poldark in Cornwall. Unforgettable.

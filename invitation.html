@@ -56,18 +56,9 @@
     text-align: center;
     overflow: hidden;
     background:
-      linear-gradient(180deg,
-        #0b1628 0%,
-        #162544 15%,
-        #1e3a5f 30%,
-        #3d6b8e 50%,
-        #7ba3b8 62%,
-        #b8c9a3 70%,
-        #8fa474 78%,
-        #6b8c52 85%,
-        #4a7a3d 90%,
-        #3a6830 100%
-      );
+      url('https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?w=1920&q=80')
+      center 60% / cover no-repeat;
+    background-color: #1a2e3e;
   }
 
   .hero::before {
@@ -75,8 +66,12 @@
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     background:
-      radial-gradient(ellipse at 30% 20%, rgba(201, 169, 110, 0.15) 0%, transparent 50%),
-      radial-gradient(ellipse at 70% 80%, rgba(255,255,255,0.05) 0%, transparent 40%);
+      linear-gradient(180deg,
+        rgba(10, 20, 35, 0.7) 0%,
+        rgba(15, 30, 50, 0.5) 40%,
+        rgba(10, 25, 40, 0.6) 70%,
+        rgba(10, 20, 35, 0.8) 100%
+      );
     pointer-events: none;
   }
 

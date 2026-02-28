@@ -4,5 +4,4 @@
 - To update the shareable link, we need to copy invitation.html to index.html and then push to origin/main. it's hosted via github pages.
 - The external link should be at https://kjchavez.github.io/uk-trip/
 - Always confirm with user before pushing to `main`.
-- Use playwright to check that your visual changes are reasonable.
 
